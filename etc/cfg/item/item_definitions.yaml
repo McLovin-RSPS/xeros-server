@@ -72384,8 +72384,3 @@
       level: 30
     - skill: "MAGIC"
       level: 30
-- id: 25910
-  name: "Tzkal slayer helmet"
-  description: "You really don't want to wear it inside-out."
-  untradeable: true
-  parent: 11864

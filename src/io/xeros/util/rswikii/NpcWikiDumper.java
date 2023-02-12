@@ -30,7 +30,7 @@ public class NpcWikiDumper {
      * npcNames.txt
      */
 
-    public static String RSWIKI_URL = "https://oldschoolrunescape.fandom.com/wiki/Old_School_RuneScape_Wiki";
+    public static String RSWIKI_URL = "http://oldschoolrunescape.wikia.com/wiki/";
 
     //public static HashMap<Integer, String> npcs = new HashMap<>();
     public static ArrayList<NpcCombatDefinition> statsList = new ArrayList<>();
@@ -87,7 +87,7 @@ public class NpcWikiDumper {
         name = formatNameForWiki(name);
         String filePath = "./data/cfg/wiki/npcs/cached/" + fileName;
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath + ".html"))) {
-            Document page = Jsoup.connect("https://oldschool.runescape.wiki/" + name).get();
+            Document page = Jsoup.connect("http://oldschool.runescape.wiki/w/" + name).get();
             writer.write(page.html());
             System.out.println("Cached NPC: " + npcId + " - " + name);
             return true;

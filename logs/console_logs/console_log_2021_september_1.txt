@@ -1,0 +1,219 @@
+12:42:44.982 [GameThread] INFO  io.xeros.Server - Server state: DEBUG
+12:42:45.887 [GameThread] INFO  i.x.m.c.ControllerRepository - Loaded 4 controllers.
+12:42:46.064 [GameThread] INFO  i.x.m.entity.player.save.PlayerSave - Loaded 15 Player Save Entries.
+12:42:46.538 [GameThread] INFO  io.xeros.model.definitions.ShopDef - Loaded 51 shops.
+12:42:46.621 [GameThread] INFO  io.xeros.model.definitions.NpcDef - Loaded 9474 npc definitions.
+[9/1/21, 12:42 PM]: Finished loading all punishments.
+[9/1/21, 12:42 PM]: Loaded 73 door definitions.
+[9/1/21, 12:42 PM]: Vote Panel Manager has 3h 22m 59s remaining.
+[9/1/21, 12:42 PM]: Loaded 8 default tourney setups.
+12:42:46.852 [GameThread] INFO  i.x.m.entity.npc.drops.DropManager - Loaded 224 drop tables.
+[9/1/21, 12:42 PM]: Total objects: 37952
+[9/1/21, 12:42 PM]: 37952 Object definitions loaded.
+[9/1/21, 12:42 PM]: Loading mapdata..
+12:42:52.627 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3094, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.636 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3095, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.636 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10042, x=3077, y=3496, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.636 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3806, y=2835, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10583, x=3186, y=3436, height=1, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=2494, y=5114, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3082, y=3507, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3286, y=4958, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3279, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4951, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3281, y=4943, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3168, y=4961, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3153, y=4974, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3178, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.637 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3155, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3180, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29778, x=3298, y=5185, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26739, x=3430, y=4824, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31925, x=3084, y=3490, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5109, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5106, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11376, x=3189, y=3932, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3221, y=3502, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3204, y=3503, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3208, y=3499, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=2231, x=3303, y=3951, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3384, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3383, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.638 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3382, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2845, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2850, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2445, y=5178, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2783, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2784, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2782, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=2780, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3010, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3011, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3012, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3013, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3014, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11373, x=3195, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.639 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3926, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3481, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3480, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=3035, y=6071, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.640 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3840, x=3001, y=3372, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2958, y=3376, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36201, x=3033, y=6065, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2205, y=3055, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=2536, y=4717, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=3016, y=5625, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29879, x=3231, y=5729, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2959, y=3802, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3092, y=3488, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.641 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10439, x=3426, y=2930, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=635, x=3269, y=3410, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11730, x=2667, y=3310, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2667, y=3303, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11732, x=2663, y=3296, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2933, y=4818, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=13287, x=3106, y=3479, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3828, x=3227, y=3108, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31624, x=2777, y=4847, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36556, x=2783, y=4839, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10833, x=3012, y=3382, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=14402, x=3269, y=3166, height=3, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.642 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.643 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.644 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.644 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.644 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+12:42:52.644 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=32572, x=3109, y=3482, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.644 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=3109, y=3483, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+12:42:52.966 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+[9/1/21, 12:42 PM]: Xeros has successfully started up in 8 seconds.
+12:42:53.037 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.105 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.173 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.241 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.309 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.377 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.445 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.512 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.580 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.649 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.717 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.784 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.852 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.919 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:53.988 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.055 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.123 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.190 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.257 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.325 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.393 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:42:54.460 [pool-2-thread-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:43:40.440 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Player leviticus has no pending captcha.
+12:43:40.511 [New I/O server worker #1-1] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+12:43:40.511 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Set "leviticus" display name to "leviticus".
+[9/1/21, 12:43 PM]: Player login queued [name=leviticus, mac=D4-5D-64-45-F1-DB, ip=127.0.0.1:60513, time=82ms]
+12:43:41.097 [GameThread] DEBUG io.xeros.model.entity.player.Player - Set controller to standard, io.xeros.model.controller.DefaultController@7e1bea7b
+12:43:41.105 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged in player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+13:01:24.925 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3199, absY=3631, spawnX=3200, spawnY=3630, name='The Kendal', index=0, instance=null}
+13:01:25.526 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3307, absY=3669, spawnX=3306, spawnY=3668, name='Fragment of Seren', index=0, instance=null}
+13:01:26.126 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3198, absY=3887, spawnX=3199, spawnY=3887, name='The Kendal', index=0, instance=null}
+13:16:25.984 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+13:31:27.830 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+13:31:28.428 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+13:46:31.269 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3306, absY=3667, spawnX=3306, spawnY=3668, name='Fragment of Seren', index=0, instance=null}
+14:01:33.588 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+14:16:35.568 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+14:16:36.168 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+14:31:37.509 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3307, absY=3667, spawnX=3306, spawnY=3668, name='The Kendal', index=0, instance=null}
+14:46:38.221 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+15:01:39.462 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+15:01:40.062 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+15:16:41.605 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3258, absY=3877, spawnX=3258, spawnY=3878, name='Fragment of Seren', index=0, instance=null}
+15:31:42.337 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+15:46:43.939 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+15:46:44.539 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+16:01:46.604 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3305, absY=3668, spawnX=3306, spawnY=3668, name='The Kendal', index=0, instance=null}
+[9/1/21, 4:06 PM]: Vote Panel Manager has 168h remaining.
+16:16:48.182 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+16:31:49.844 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+16:31:50.444 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+16:46:52.413 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3234, absY=3638, spawnX=3233, spawnY=3638, name='Fragment of Seren', index=0, instance=null}
+17:01:53.763 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+17:16:55.131 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+17:16:55.731 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+17:31:56.780 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3257, absY=3877, spawnX=3258, spawnY=3878, name='The Kendal', index=0, instance=null}
+17:46:57.218 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:01:58.194 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:01:58.796 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+18:16:59.810 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3307, absY=3669, spawnX=3306, spawnY=3668, name='Fragment of Seren', index=0, instance=null}
+18:32:00.193 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:47:01.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:47:01.857 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+19:02:02.929 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3233, absY=3638, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}
+19:17:03.401 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+19:32:04.413 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+19:32:05.016 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+19:47:06.008 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3199, absY=3886, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+20:02:06.388 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:17:07.414 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:17:08.017 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+20:32:09.087 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3307, absY=3933, spawnX=3307, spawnY=3933, name='The Kendal', index=0, instance=null}
+20:47:09.557 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:02:10.722 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:02:11.321 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+21:17:14.039 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3199, absY=3887, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+21:32:16.025 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:47:18.743 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:47:19.342 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+22:02:22.217 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3308, absY=3933, spawnX=3307, spawnY=3933, name='The Kendal', index=0, instance=null}
+22:17:23.675 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+22:32:25.493 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+22:32:26.093 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+22:47:27.973 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3258, absY=3877, spawnX=3258, spawnY=3878, name='Fragment of Seren', index=0, instance=null}
+23:02:28.582 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:17:29.748 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:17:30.348 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+23:32:31.602 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3308, absY=3933, spawnX=3307, spawnY=3933, name='The Kendal', index=0, instance=null}
+23:47:32.290 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:02:33.690 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:02:34.290 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+00:17:35.729 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3198, absY=3887, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+00:32:36.477 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:47:37.669 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:47:38.271 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+01:02:39.496 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3306, absY=3933, spawnX=3307, spawnY=3933, name='The Kendal', index=0, instance=null}
+01:17:40.015 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+01:32:41.194 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+01:32:41.797 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+01:47:42.994 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3258, absY=3879, spawnX=3258, spawnY=3878, name='Fragment of Seren', index=0, instance=null}
+02:02:43.650 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:17:45.022 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:17:45.621 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+[9/2/21, 2:31 AM]: Leviticus is logging out..
+02:31:39.662 [pool-10-thread-1] DEBUG i.x.m.entity.player.save.PlayerSave - Saving game for player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+02:31:40.261 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged out 'leviticus', 0 in queue.
+02:31:59.090 [New I/O server worker #1-2] DEBUG io.xeros.net.login.RS2LoginProtocol - Player leviticus has no pending captcha.
+02:31:59.159 [New I/O server worker #1-2] INFO  io.xeros.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+02:31:59.159 [New I/O server worker #1-2] DEBUG io.xeros.net.login.RS2LoginProtocol - Set "leviticus" display name to "leviticus".
+[9/2/21, 2:31 AM]: Player login queued [name=leviticus, mac=D4-5D-64-45-F1-DB, ip=127.0.0.1:55119, time=76ms]
+02:31:59.487 [GameThread] DEBUG io.xeros.model.entity.player.Player - Set controller to standard, io.xeros.model.controller.DefaultController@7e1bea7b
+02:31:59.490 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged in player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+02:32:46.989 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3307, absY=3668, spawnX=3306, spawnY=3668, name='The Kendal', index=0, instance=null}
+02:47:47.725 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+03:02:49.131 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+03:02:49.732 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+03:17:50.958 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3257, absY=3878, spawnX=3258, spawnY=3878, name='Fragment of Seren', index=0, instance=null}

@@ -16,7 +16,7 @@ public class Benefits extends Command {
 	public void execute(Player c, String commandName, String input) {
 		  c.getPA()
           .sendFrame126(
-                  "https://www.xeros.io/index.php?/topic/14-donator-benefits-guide/", 12000);
+                  "https://www.grim.io/index.php?/topic/14-donator-benefits-guide/", 12000);
 }
 
 	@Override

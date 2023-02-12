@@ -368,7 +368,7 @@ public class ItemOptionThree implements PacketType {
                 c.operateEquipmentItemId = itemId;
                 c.isOperate = true;
                 break;
-            case 25910:
+
             case 24444:
             case 19639:
             case 19641:

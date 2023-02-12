@@ -447,7 +447,7 @@ Removed the square from yell if you have no title.
 If an admin custom starts an outlast tournament, the next automatic system outlast will no longer overwrite it and kick everyone from lobby.
 
 
-```Combat Fixes
+Combat Fixes
 Autocast will now reset when removing your weapon.
 Click-casting air strike will no longer punch.
 You can now click-cast while autocasting without resetting your autocast.
@@ -474,7 +474,7 @@ Broadcasts about skill achievements will now display the game mode.
 Skilling Island is now home to an ironman store and sell me anything store.
 Raids Common Keys are now stackable.
 Hydra will now drop more scales on average.
-Restricted accounts will now be allowed to receive the GP reward from Outlast, however, the reward will be halved from what a non-restricted would normally receive.```
+Restricted accounts will now be allowed to receive the GP reward from Outlast, however, the reward will be halved from what a non-restricted would normally receive.
 
 
 March 17, 2020

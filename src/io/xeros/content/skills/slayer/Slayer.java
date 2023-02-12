@@ -867,7 +867,6 @@ public class Slayer {
 							!player.getItems().playerHasItem(19647) &&
 							!player.getItems().playerHasItem(23073) &&
 							!player.getItems().playerHasItem(21264) &&
-							!player.getItems().playerHasItem(25910) &&
 							!player.getItems().playerHasItem(21888) ) {
 						player.sendMessage("You need a slayer helmet in your inventory to do this.");
 						return false;
@@ -903,10 +902,6 @@ public class Slayer {
 					if (player.getItems().playerHasItem(19647)) {
 						slayerHelmet = 19647;
 						slayerHelmetI = 19649;
-					}
-					if (player.getItems().playerHasItem(25910)) {
-						slayerHelmet = 25910;
-						slayerHelmetI = 25912;
 					}
 					points -= cost;
 					player.getItems().deleteItem2(slayerHelmet, 1);

@@ -16,7 +16,7 @@ public class Foepets extends Command {
 	public void execute(Player c, String commandName, String input) {
 		  c.getPA()
           .sendFrame126(
-                  "https://www.xeros.io/index.php?/topic/78-fire-of-exchange-pet-information/", 12000);
+                  "https://www.grim.io/index.php?/topic/78-fire-of-exchange-pet-information/", 12000);
 }
 
 	@Override

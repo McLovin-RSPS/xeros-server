@@ -67792,21 +67792,6 @@
       "prayer": 6
     }
   },
-  "25910": {
-    "name": "Tzkal slayer helmet",
-    "equipable": true,
-    "weight": 2.2,
-    "equipment": {
-      "slot": 0,
-      "amagic": 3,
-      "arange": 3,
-      "dstab": 30,
-      "dslash": 32,
-      "dcrush": 27,
-      "dmagic": 10,
-      "drange": 30
-    }
-  },
   "33057": {
     "name": "Completionist hood",
     "equipable": true,

@@ -72,7 +72,7 @@ public class EventCalendar {
     private static final int WINNERS_NUMBER_CONTAINER_INTERFACE_ID = 23_349;
     private static final int RULES_BUTTON_ID = 23_344;
     private static final int CURRENT_STATE_STRING_INTERFACE_ID = 23341;
-    private static final String RULES_BUTTON_URL = "https://www.xeros.io/index.php?/topic/535-xeros-62b-osrs-gp-october-calendar-event/";
+    private static final String RULES_BUTTON_URL = "https://www.grim.io/index.php?/topic/535-xeros-62b-osrs-gp-october-calendar-event/";
     private static final boolean LEAP_YEAR = Misc.isLeapYear();
 
     /**

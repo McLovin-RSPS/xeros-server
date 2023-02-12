@@ -5,6 +5,7 @@ import io.xeros.content.achievement_diary.impl.FaladorDiaryEntry;
 import io.xeros.content.achievement_diary.impl.VarrockDiaryEntry;
 import io.xeros.content.bosses.grotesqueguardians.GrotesqueInstance;
 import io.xeros.content.bosses.hespori.Hespori;
+import io.xeros.content.commands.owner.Pos;
 import io.xeros.content.dialogue.impl.OutlastLeaderboard;
 import io.xeros.content.fireofexchange.FireOfExchangeBurnPrice;
 import io.xeros.content.item.lootable.impl.RaidsChestCommon;
@@ -22,6 +23,8 @@ import io.xeros.model.entity.player.Boundary;
 import io.xeros.model.entity.player.Player;
 import io.xeros.model.entity.player.Right;
 import io.xeros.model.entity.player.packets.objectoptions.impl.DarkAltar;
+import io.xeros.model.tickable.Tickable;
+import io.xeros.model.tickable.TickableContainer;
 import io.xeros.model.world.objects.GlobalObject;
 import io.xeros.util.Location3D;
 import io.xeros.util.Misc;
@@ -110,9 +113,9 @@ public class ObjectOptionTwo {
 			c.getPA().movePlayer(1309, 3786, 0);
 			break;
 		case 34553:
-		//case 34554:
-			//c.getDH().sendStatement("Alchemical hydra is in developement.");
-			//break;
+		case 34554:
+			c.getDH().sendStatement("Alchemical hydra is in developement.");
+			break;
 		case 10060:
 		case 10061:
 			if (c.getMode().isIronmanType()) {

@@ -1,13 +1,15 @@
 package io.xeros;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.temporal.ChronoUnit;
+import java.util.concurrent.TimeUnit;
+
 import io.xeros.model.Npcs;
 import io.xeros.model.entity.player.Position;
 import io.xeros.util.Misc;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.util.concurrent.TimeUnit;
 
 public class Configuration {
 
@@ -19,16 +21,16 @@ public class Configuration {
 	public static final String PACKAGE = "io.xeros";
 	public static final String DATA_FOLDER = "etc";
 
-	public static final String WEBSITE = "https://www.xeros.io/";
-	public static final String FORUM_TOPIC_URL = "https://www.xeros.io/index.php?/topic/";
-	public static final String VOTE_LINK = "https://vote.xeros.io/";
-	public static final String HISCORES_LINK = "http://hiscores.xeros.io/";
-	public static final String STORE_LINK = "https://store.xeros.io/";
+	public static final String WEBSITE = "https://www.grim.io/";
+	public static final String FORUM_TOPIC_URL = "https://www.grim.io/index.php?/topic/";
+	public static final String VOTE_LINK = "https://vote.grim.io/";
+	public static final String HISCORES_LINK = "http://hiscores.grim.io/";
+	public static final String STORE_LINK = "https://store.grim.io/";
 	public static final String DISCORD_INVITE = "https://discord.gg/f8xb3bC";
-	public static final String RULES_LINK = "https://www.xeros.io/index.php?/forum/7-forum-and-in-game-rules/&ct=1584132026";
-	public static final String GUIDES_LINK = "https://www.xeros.io/index.php?/forum/11-guides/";
-	public static final String DONATOR_BENEFITS_LINK = "https://www.xeros.io/index.php?/topic/14-donator-benefits-guide/";
-	public static final String PRICE_GUIDE = "https://www.xeros.io/index.php?/topic/238-updated-price-guide-10242020/";
+	public static final String RULES_LINK = "https://www.grim.io/index.php?/forum/7-forum-and-in-game-rules/&ct=1584132026";
+	public static final String GUIDES_LINK = "https://www.grim.io/index.php?/forum/11-guides/";
+	public static final String DONATOR_BENEFITS_LINK = "https://www.grim.io/index.php?/topic/14-donator-benefits-guide/";
+	public static final String PRICE_GUIDE = "https://www.grim.io/index.php?/topic/238-updated-price-guide-10242020/";
 
 	public static final LocalDate XEROS_V1_LAUNCH_DATE = LocalDate.of(2020, Month.MARCH, 13);
 	public static final LocalDate XEROS_V2_LAUNCH_DATE = LocalDate.of(2021, Month.MAY, 1);
@@ -53,7 +55,7 @@ public class Configuration {
 	public static boolean DISABLE_CONNECTION_REQUEST_LIMIT = false;
 	public static boolean DISABLE_CAPTCHA_EVERY_LOGIN = true;
 	public static boolean DISABLE_CHANGE_ADDRESS_CAPTCHA = false;
-	public static boolean DISABLE_NEW_ACCOUNT_CAPTCHA = true;
+	public static boolean DISABLE_NEW_ACCOUNT_CAPTCHA = false;
 	public static boolean DISABLE_REGISTRATION = false;
 	public static boolean DISABLE_ADDRESS_VERIFICATION = true;
 	public static boolean DISABLE_FRESH_LOGIN = false;
@@ -114,7 +116,7 @@ public class Configuration {
 	 */
 	public static boolean BOUNTY_HUNTER_ACTIVE = true;
 	public static boolean NEW_DUEL_ARENA_ACTIVE = true;
-	public static boolean VOTE_PANEL_ACTIVE = true;
+	public static boolean VOTE_PANEL_ACTIVE = false;
 
 	/**
 	 * The highest amount ID. Change is not needed here unless loading items higher
@@ -248,7 +250,7 @@ public class Configuration {
 	/**
 	 * If you need a certain magic level to use a certain spell.
 	 */
-	public static final boolean MAGIC_LEVEL_REQUIRED = false;
+	public static final boolean MAGIC_LEVEL_REQUIRED = true;
 
 	/**
 	 * How long the god charge spell lasts.
@@ -258,17 +260,17 @@ public class Configuration {
 	/**
 	 * If you need runes to use magic spells.
 	 */
-	public static final boolean RUNES_REQUIRED = false;
+	public static final boolean RUNES_REQUIRED = true;
 
 	/**
 	 * If you need correct arrows to use with bows.
 	 */
-	public static final boolean CORRECT_ARROWS = false;
+	public static final boolean CORRECT_ARROWS = true;
 
 	/**
 	 * If the crystal bow degrades.
 	 */
-	public static final boolean CRYSTAL_BOW_DEGRADES = false;
+	public static final boolean CRYSTAL_BOW_DEGRADES = true;
 
 	/**
 	 * How often the server saves data.

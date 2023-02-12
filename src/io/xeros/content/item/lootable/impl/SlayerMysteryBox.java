@@ -43,6 +43,7 @@ public class SlayerMysteryBox extends MysteryBoxLootable {
 						new GameItem(4588, 5),//dragon plateskirt
 						new GameItem(4153),//g maul
 						new GameItem(13116),//bone crusher
+						new GameItem(13226),//herb sack
 						new GameItem(23686, 15),// divine combat
 						new GameItem(23746, 15),// divine magic
 						new GameItem(23734, 15),//divine range

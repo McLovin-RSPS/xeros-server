@@ -14,7 +14,7 @@ public class Grules extends Command {
 
 	@Override
 	public void execute(Player c, String commandName, String input) {
-		c.getPA().sendFrame126("https://www.xeros.io/index.php?/topic/403-rules-guide-for-gambling-on-xeros/", 12000);
+		c.getPA().sendFrame126("https://www.grim.io/index.php?/topic/403-rules-guide-for-gambling-on-xeros/", 12000);
 	}
 
 	@Override

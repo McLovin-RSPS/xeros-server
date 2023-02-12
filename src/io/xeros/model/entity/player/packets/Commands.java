@@ -849,13 +849,13 @@ public class Commands implements PacketType {
                     c.sendMessage("You must be in edgeville to use this.");
                 }
             } else if (playerCommand.startsWith("foe")) {
-                c.getPA().sendFrame126("https://www.xeros.io/index.php?/topic/423-fire-of-exchange-foe/&ct=1631764603", 12000);
+                c.getPA().sendFrame126("https://www.grim.io/index.php?/topic/423-fire-of-exchange-foe/&ct=1631764603", 12000);
             }
             if (playerCommand.toLowerCase().contentEquals("faq")) {
-                c.getPA().sendFrame126("https://www.xeros.io/index.php?/topic/439-frequently-asked-questions/", 12000);
+                c.getPA().sendFrame126("https://www.grim.io/index.php?/topic/439-frequently-asked-questions/", 12000);
             }
             if (playerCommand.toLowerCase().contentEquals("cox")) {
-                c.getPA().sendFrame126("https://www.xeros.io/index.php?/topic/469-cox-guide/", 12000);
+                c.getPA().sendFrame126("https://www.grim.io/index.php?/topic/469-cox-guide/", 12000);
             }
             if (playerCommand.startsWith("proj")) {
                 if (!isManagment && !Server.getConfiguration().getServerState().isOpenSpawning()) {

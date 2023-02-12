@@ -1,0 +1,207 @@
+Sep 09, 2021 10:39:06 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 10:39:07 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14045 item definitions.
+Sep 09, 2021 10:39:07 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 10:39:07 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 10:39:07 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2925 npcs.
+Sep 09, 2021 10:39:07 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 10:39:07 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 10:39:14 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 10:39:14 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 10:39:14 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 234 commands.
+Sep 09, 2021 10:39:14 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 10:39:14 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+[2021-09-09T10:40:14.2314312] java.sql.SQLSyntaxErrorException: Table 'u382793551_xeros.leaderboard_rewards' doesn't exist
+[2021-09-09T10:40:14.2324319] 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+[2021-09-09T10:40:14.2324319] 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+[2021-09-09T10:40:14.2324319] 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+[2021-09-09T10:40:14.2324319] 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+[2021-09-09T10:40:14.2324319] 	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+[2021-09-09T10:40:14.2324319] 	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+[2021-09-09T10:40:14.2324319] 	at io.xeros.sql.leaderboard.LeaderboardGetAllRewards.execute(LeaderboardGetAllRewards.java:25)
+[2021-09-09T10:40:14.2324319] 	at io.xeros.model.cycleevent.impl.LeaderboardUpdateEvent.lambda$execute$0(LeaderboardUpdateEvent.java:54)
+[2021-09-09T10:40:14.2324319] 	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+[2021-09-09T10:40:14.2324319] 	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+[2021-09-09T10:40:14.2324319] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[2021-09-09T10:40:14.2334328] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[2021-09-09T10:40:14.2334328] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[2021-09-09T10:40:14.2334328] 	at java.base/java.lang.Thread.run(Thread.java:832)
+Sep 09, 2021 10:40:53 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 10:40:53 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14045 item definitions.
+Sep 09, 2021 10:40:53 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 10:40:53 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 10:40:53 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2925 npcs.
+Sep 09, 2021 10:40:53 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 10:40:53 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 10:40:59 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 10:40:59 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 10:41:00 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 234 commands.
+Sep 09, 2021 10:41:00 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 10:41:00 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+Sep 09, 2021 10:44:25 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 10:44:25 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14045 item definitions.
+Sep 09, 2021 10:44:25 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 10:44:25 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 10:44:25 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2925 npcs.
+Sep 09, 2021 10:44:25 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 10:44:25 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 10:44:31 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 10:44:31 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 10:44:31 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 234 commands.
+Sep 09, 2021 10:44:31 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 10:44:31 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+Sep 09, 2021 10:46:27 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 10:46:28 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14045 item definitions.
+Sep 09, 2021 10:46:28 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 10:46:28 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 10:46:28 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2925 npcs.
+Sep 09, 2021 10:46:28 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 10:46:28 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 10:46:34 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 10:46:34 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 10:46:34 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 234 commands.
+Sep 09, 2021 10:46:34 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 10:46:34 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+Sep 09, 2021 10:55:49 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 10:55:50 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14045 item definitions.
+Sep 09, 2021 10:55:50 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 10:55:50 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 10:55:50 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2925 npcs.
+Sep 09, 2021 10:55:50 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 10:55:50 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 10:55:56 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 10:55:56 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 10:55:56 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 234 commands.
+Sep 09, 2021 10:55:56 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 10:55:56 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+[2021-09-09T11:46:10.0295385] org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration description mismatch for migration version 12
+-> Applied to database : create leaderboard tables
+-> Resolved locally    : clear calendar tables for new month. Either revert the changes to the migration, or run repair to update the schema history.
+Need more flexibility with validation rules? Learn more: https://flywaydb.org/custom-validate-rules/?ref=v7.11.0
+[2021-09-09T11:46:10.0315409] 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:179)
+[2021-09-09T11:46:10.0315409] 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:172)
+[2021-09-09T11:46:10.0315409] 	at org.flywaydb.core.Flyway.execute(Flyway.java:588)
+[2021-09-09T11:46:10.0315409] 	at org.flywaydb.core.Flyway.migrate(Flyway.java:172)
+[2021-09-09T11:46:10.0315409] 	at io.xeros.Server.loadData(Server.java:137)
+[2021-09-09T11:46:10.0315409] 	at io.xeros.Server.lambda$main$0(Server.java:173)
+[2021-09-09T11:46:10.0315409] 	at io.xeros.GameThread.run(GameThread.java:52)
+[2021-09-09T12:18:47.98246] org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration description mismatch for migration version 12
+-> Applied to database : create leaderboard tables
+-> Resolved locally    : clear calendar tables for new month. Either revert the changes to the migration, or run repair to update the schema history.
+Need more flexibility with validation rules? Learn more: https://flywaydb.org/custom-validate-rules/?ref=v7.11.0
+[2021-09-09T12:18:47.9854627] 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:179)
+[2021-09-09T12:18:47.9854627] 	at org.flywaydb.core.Flyway$1.execute(Flyway.java:172)
+[2021-09-09T12:18:47.9854627] 	at org.flywaydb.core.Flyway.execute(Flyway.java:588)
+[2021-09-09T12:18:47.9854627] 	at org.flywaydb.core.Flyway.migrate(Flyway.java:172)
+[2021-09-09T12:18:47.9854627] 	at io.xeros.Server.loadData(Server.java:137)
+[2021-09-09T12:18:47.9854627] 	at io.xeros.Server.lambda$main$0(Server.java:173)
+[2021-09-09T12:18:47.9854627] 	at io.xeros.GameThread.run(GameThread.java:52)
+Sep 09, 2021 12:19:08 PM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 12:19:08 PM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14046 item definitions.
+Sep 09, 2021 12:19:09 PM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 12:19:09 PM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 12:19:09 PM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2926 npcs.
+Sep 09, 2021 12:19:09 PM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 12:19:09 PM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 12:19:15 PM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 12:19:15 PM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 12:19:15 PM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 239 commands.
+Sep 09, 2021 12:19:15 PM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 12:19:15 PM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.
+Sep 09, 2021 3:52:08 PM io.xeros.content.boosts.Boosts init
+INFO: Loaded 16 boosts.
+Sep 09, 2021 3:52:09 PM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14046 item definitions.
+Sep 09, 2021 3:52:09 PM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 09, 2021 3:52:09 PM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 09, 2021 3:52:09 PM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 2926 npcs.
+Sep 09, 2021 3:52:09 PM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 36 npc relationships.
+Sep 09, 2021 3:52:09 PM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 09, 2021 3:52:16 PM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 09, 2021 3:52:16 PM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 09, 2021 3:52:16 PM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 239 commands.
+Sep 09, 2021 3:52:16 PM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 09, 2021 3:52:16 PM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.

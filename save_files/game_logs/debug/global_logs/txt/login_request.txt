@@ -1,0 +1,21 @@
+[LoginRequestLog] [2022-09-13T02:35:10.8982174] [ip=127.0.0.1] Handshake
+[LoginRequestLog] [2022-09-13T02:35:10.9062591] [ip=127.0.0.1] Passed handshake
+[LoginRequestLog] [2022-09-13T02:35:10.9133055] [ip=127.0.0.1] Passed POW request
+[LoginRequestLog] [2022-09-13T02:35:11.0139088] [ip=127.0.0.1] Passed POW check
+[LoginRequestLog] [2022-09-13T02:35:11.0210391] [ip=127.0.0.1] Login block
+[LoginRequestLog] [2022-09-13T02:35:11.0210391] [ip=127.0.0.1] loginType=16, loginPacketSize=169, loginEncryptPackSize=129
+[LoginRequestLog] [2022-09-13T02:35:11.1065258] [ip=127.0.0.1] Success [time=85ms, mac=F4-4D-30-9C-8E-44, uuid=b7adc9db-5e5c-41ba-9211-8a798922337d]
+[LoginRequestLog] [2022-09-13T02:45:31.1150422] [ip=127.0.0.1] Handshake
+[LoginRequestLog] [2022-09-13T02:45:31.1160425] [ip=127.0.0.1] Passed handshake
+[LoginRequestLog] [2022-09-13T02:45:31.1226183] [ip=127.0.0.1] Passed POW request
+[LoginRequestLog] [2022-09-13T02:45:31.1883084] [ip=127.0.0.1] Passed POW check
+[LoginRequestLog] [2022-09-13T02:45:31.1942949] [ip=127.0.0.1] Login block
+[LoginRequestLog] [2022-09-13T02:45:31.1942949] [ip=127.0.0.1] loginType=16, loginPacketSize=169, loginEncryptPackSize=129
+[LoginRequestLog] [2022-09-13T02:45:31.3050053] [ip=127.0.0.1] Success [time=111ms, mac=F4-4D-30-9C-8E-44, uuid=b7adc9db-5e5c-41ba-9211-8a798922337d]
+[LoginRequestLog] [2022-09-13T03:02:00.0718687] [ip=127.0.0.1] Handshake
+[LoginRequestLog] [2022-09-13T03:02:00.0718687] [ip=127.0.0.1] Passed handshake
+[LoginRequestLog] [2022-09-13T03:02:00.0768851] [ip=127.0.0.1] Passed POW request
+[LoginRequestLog] [2022-09-13T03:02:00.1192313] [ip=127.0.0.1] Passed POW check
+[LoginRequestLog] [2022-09-13T03:02:00.1337288] [ip=127.0.0.1] Login block
+[LoginRequestLog] [2022-09-13T03:02:00.1337288] [ip=127.0.0.1] loginType=16, loginPacketSize=169, loginEncryptPackSize=129
+[LoginRequestLog] [2022-09-13T03:02:00.2349388] [ip=127.0.0.1] Success [time=101ms, mac=F4-4D-30-9C-8E-44, uuid=b7adc9db-5e5c-41ba-9211-8a798922337d]

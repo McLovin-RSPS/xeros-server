@@ -173,7 +173,7 @@ public final class ObjectDef {
 		int i = -1;
 		label0: do {
 			int opcode;
-
+			
 				opcode = buffer.readUnsignedByte();
 				if (opcode == 0)
 					break label0;

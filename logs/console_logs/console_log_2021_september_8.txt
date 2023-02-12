@@ -1,0 +1,1123 @@
+17:16:31.108 [GameThread] INFO  io.xeros.Server - Server state: DEBUG_SQL
+17:16:31.313 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/callback' ...
+17:16:31.313 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:16:31.314 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Unable to resolve location classpath:db/callback.
+17:16:31.317 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - AWS SDK available: false
+17:16:31.317 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - Google Cloud Storage available: false
+17:16:31.318 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/migration' ...
+17:16:31.318 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:16:31.318 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning URL: file:/D:/GitHub/Sovark_Server/build/classes/java/main/db/migration
+17:16:31.318 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - JBoss VFS v2 available: false
+17:16:31.319 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning starting at classpath root in filesystem: D:\GitHub\Sovark_Server\build\classes\java\main\
+17:16:31.319 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning for resources in path: D:\GitHub\Sovark_Server\build\classes\java\main\db\migration (db/migration)
+17:16:31.320 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V10__create_event_calendar_tables.class
+17:16:31.320 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V11__create_vote_record_table.class
+17:16:31.320 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V12__create_leaderboard_tables.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V1__Example.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V2__create_gim_contest_tables.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V3__create_outlast_leaderboard_tables.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V4__create_outlast_recent_winners_table.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V6__create_reclaimed_donations_table.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V7__create_display_name_table.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V8__add_created_accounts_to_display_names.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database.class
+17:16:31.321 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classes at classpath:db/migration
+17:16:31.322 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V10__create_event_calendar_tables
+17:16:31.323 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V11__create_vote_record_table
+17:16:31.323 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V12__create_leaderboard_tables
+17:16:31.324 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V1__Example
+17:16:31.324 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V2__create_gim_contest_tables
+17:16:31.324 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V3__create_outlast_leaderboard_tables
+17:16:31.325 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V4__create_outlast_recent_winners_table
+17:16:31.326 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V5__migrate_reclaimed_donations_into_different_table
+17:16:31.326 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V6__create_reclaimed_donations_table
+17:16:31.326 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V7__create_display_name_table
+17:16:31.327 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V8__add_created_accounts_to_display_names
+17:16:31.328 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V9__migrate_wogw_contributions_to_database
+17:16:31.455 [GameThread] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.11.0 by Redgate
+17:16:31.455 [GameThread] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:mysql://127.0.0.1/u382793551_Xeros (MySQL 5.5)
+17:16:31.455 [GameThread] DEBUG o.f.c.i.d.base.BaseDatabaseType - Driver  : MySQL Connector/J mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+17:16:31.473 [GameThread] DEBUG org.flywaydb.core.Flyway - DDL Transactions Supported: false
+17:16:31.474 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Schemas: 
+17:16:31.474 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Default schema: null
+17:16:31.479 [GameThread] DEBUG o.f.c.i.c.SqlScriptCallbackFactory - Scanning for SQL callbacks ...
+17:16:31.479 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:16:31.479 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:16:31.479 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:16:31.480 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:16:31.486 [GameThread] DEBUG o.f.core.internal.command.DbValidate - Validating migrations ...
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:16:31.488 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:16:31.489 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:16:31.490 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:16:31.501 [GameThread] INFO  o.f.core.internal.command.DbValidate - Successfully validated 12 migrations (execution time 00:00.014s)
+17:16:31.508 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `u382793551_xeros`: 12
+17:16:31.508 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Schema `u382793551_xeros` is up to date. No migration necessary.
+17:16:31.514 [GameThread] DEBUG org.flywaydb.core.Flyway - Memory usage: 27 of 512M
+17:16:31.983 [GameThread] INFO  i.x.m.c.ControllerRepository - Loaded 4 controllers.
+17:16:32.157 [GameThread] INFO  i.x.m.entity.player.save.PlayerSave - Loaded 15 Player Save Entries.
+17:16:32.565 [GameThread] INFO  io.xeros.model.definitions.ShopDef - Loaded 51 shops.
+17:16:32.645 [GameThread] INFO  io.xeros.model.definitions.NpcDef - Loaded 9474 npc definitions.
+[9/8/21, 5:16 PM]: Finished loading all punishments.
+[9/8/21, 5:16 PM]: Loaded 73 door definitions.
+[9/8/21, 5:16 PM]: Vote Panel Manager has 10h 21m 58s remaining.
+[9/8/21, 5:16 PM]: Loaded 8 default tourney setups.
+17:16:32.926 [GameThread] INFO  i.x.m.entity.npc.drops.DropManager - Loaded 224 drop tables.
+[9/8/21, 5:16 PM]: Total objects: 37952
+[9/8/21, 5:16 PM]: 37952 Object definitions loaded.
+[9/8/21, 5:16 PM]: Loading mapdata..
+17:16:39.249 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3094, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3095, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10042, x=3077, y=3496, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3806, y=2835, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10583, x=3186, y=3436, height=1, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=2494, y=5114, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.255 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3082, y=3507, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3286, y=4958, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3279, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4951, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3281, y=4943, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3168, y=4961, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3153, y=4974, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3178, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3155, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3180, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29778, x=3298, y=5185, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26739, x=3430, y=4824, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31925, x=3084, y=3490, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5109, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5106, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11376, x=3189, y=3932, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3221, y=3502, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3204, y=3503, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3208, y=3499, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.256 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=2231, x=3303, y=3951, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3384, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3383, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3382, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2845, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2850, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2445, y=5178, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2783, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2784, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2782, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=2780, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3010, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3011, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3012, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3013, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3014, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11373, x=3195, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.257 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3926, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3481, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3480, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=3035, y=6071, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3840, x=3001, y=3372, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2958, y=3376, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36201, x=3033, y=6065, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2205, y=3055, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=2536, y=4717, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.258 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=3016, y=5625, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29879, x=3231, y=5729, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2959, y=3802, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3092, y=3488, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10439, x=3426, y=2930, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=635, x=3269, y=3410, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11730, x=2667, y=3310, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2667, y=3303, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11732, x=2663, y=3296, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.259 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2933, y=4818, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=13287, x=3106, y=3479, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3828, x=3227, y=3108, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31624, x=2777, y=4847, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36556, x=2783, y=4839, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10833, x=3012, y=3382, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=14402, x=3269, y=3166, height=3, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.260 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=32572, x=3109, y=3482, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:16:39.261 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=3109, y=3483, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+[9/8/21, 5:16 PM]: Xeros has successfully started up in 8 seconds.
+17:16:39.678 [pool-4-thread-1] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@642b8708
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:39.678 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@37e7dcfb
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.204 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@1d2624ca
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.206 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@7ab96e50
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.210 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@5d8f64c2
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.213 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@1c936585
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.215 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@53a43a92
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dona WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.218 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@333ef4cd
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'dono WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.227 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@6b71addc
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'do WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.231 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.234 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.798 [pool-4-thread-1] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@5dfc2caf
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'club WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.799 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@18716898
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'club WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.800 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@21bba9d7
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.802 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@547e25b6
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.804 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@457b4f16
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'iro WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.805 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@62d49acb
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.807 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@3aaf226b
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'develop WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.808 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.808 [pool-4-thread-2] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@5a8f4cca
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:40.808 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.809 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.809 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.810 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:40.810 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.393 [pool-4-thread-6] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@24a6af78
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.394 [pool-4-thread-5] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@1cc82bd5
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.396 [pool-4-thread-5] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@64ca90de
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ironman WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.397 [pool-4-thread-5] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@1f547a28
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ironma WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.398 [pool-4-thread-5] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@7fceffd0
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'hardco WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.399 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.399 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.400 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.400 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.400 [pool-4-thread-5] ERROR io.xeros.sql.DatabaseManager - An error occurred while trying to execute a query, database= io.xeros.sql.DatabaseCredentials@67782537, query=io.xeros.content.leaderboards.LeaderboardUtils$$Lambda$341/0x0000000800ebe508@7ae8fe43
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group ironma WHERE claimed = 0' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.xeros.sql.leaderboard.LeaderboardGetAllUnclaimedRewards.execute(LeaderboardGetAllUnclaimedRewards.java:32)
+	at io.xeros.content.leaderboards.LeaderboardUtils.lambda$checkRewards$0(LeaderboardUtils.java:22)
+	at io.xeros.sql.DatabaseManager.executeImmediate(DatabaseManager.java:106)
+	at io.xeros.sql.DatabaseManager.lambda$exec$0(DatabaseManager.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+17:16:41.400 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.400 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.401 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:16:41.994 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:42.836 [GameThread] INFO  io.xeros.Server - Server state: DEBUG_SQL
+17:20:43.006 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/callback' ...
+17:20:43.006 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:20:43.006 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Unable to resolve location classpath:db/callback.
+17:20:43.009 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - AWS SDK available: false
+17:20:43.010 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - Google Cloud Storage available: false
+17:20:43.010 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/migration' ...
+17:20:43.010 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:20:43.010 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning URL: file:/D:/GitHub/Sovark_Server/build/classes/java/main/db/migration
+17:20:43.010 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - JBoss VFS v2 available: false
+17:20:43.011 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning starting at classpath root in filesystem: D:\GitHub\Sovark_Server\build\classes\java\main\
+17:20:43.011 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning for resources in path: D:\GitHub\Sovark_Server\build\classes\java\main\db\migration (db/migration)
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V10__create_event_calendar_tables.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V11__create_vote_record_table.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V12__create_leaderboard_tables.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V1__Example.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V2__create_gim_contest_tables.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V3__create_outlast_leaderboard_tables.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V4__create_outlast_recent_winners_table.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class
+17:20:43.012 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V6__create_reclaimed_donations_table.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V7__create_display_name_table.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V8__add_created_accounts_to_display_names.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database.class
+17:20:43.013 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classes at classpath:db/migration
+17:20:43.014 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V10__create_event_calendar_tables
+17:20:43.014 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V11__create_vote_record_table
+17:20:43.014 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V12__create_leaderboard_tables
+17:20:43.015 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V1__Example
+17:20:43.015 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V2__create_gim_contest_tables
+17:20:43.015 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V3__create_outlast_leaderboard_tables
+17:20:43.015 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V4__create_outlast_recent_winners_table
+17:20:43.016 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V5__migrate_reclaimed_donations_into_different_table
+17:20:43.016 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V6__create_reclaimed_donations_table
+17:20:43.016 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V7__create_display_name_table
+17:20:43.016 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V8__add_created_accounts_to_display_names
+17:20:43.017 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V9__migrate_wogw_contributions_to_database
+17:20:43.139 [GameThread] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.11.0 by Redgate
+17:20:43.139 [GameThread] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:mysql://127.0.0.1/u382793551_Xeros (MySQL 5.5)
+17:20:43.139 [GameThread] DEBUG o.f.c.i.d.base.BaseDatabaseType - Driver  : MySQL Connector/J mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+17:20:43.160 [GameThread] DEBUG org.flywaydb.core.Flyway - DDL Transactions Supported: false
+17:20:43.161 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Schemas: 
+17:20:43.161 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Default schema: null
+17:20:43.167 [GameThread] DEBUG o.f.c.i.c.SqlScriptCallbackFactory - Scanning for SQL callbacks ...
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:20:43.167 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:20:43.168 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:20:43.174 [GameThread] DEBUG o.f.core.internal.command.DbValidate - Validating migrations ...
+17:20:43.176 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:20:43.176 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:20:43.177 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:20:43.178 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:20:43.189 [GameThread] INFO  o.f.core.internal.command.DbValidate - Successfully validated 12 migrations (execution time 00:00.014s)
+17:20:43.196 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `u382793551_xeros`: 12
+17:20:43.196 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Schema `u382793551_xeros` is up to date. No migration necessary.
+17:20:43.202 [GameThread] DEBUG org.flywaydb.core.Flyway - Memory usage: 28 of 512M
+17:20:43.667 [GameThread] INFO  i.x.m.c.ControllerRepository - Loaded 4 controllers.
+17:20:43.839 [GameThread] INFO  i.x.m.entity.player.save.PlayerSave - Loaded 15 Player Save Entries.
+17:20:44.256 [GameThread] INFO  io.xeros.model.definitions.ShopDef - Loaded 51 shops.
+17:20:44.335 [GameThread] INFO  io.xeros.model.definitions.NpcDef - Loaded 9474 npc definitions.
+[9/8/21, 5:20 PM]: Finished loading all punishments.
+[9/8/21, 5:20 PM]: Loaded 73 door definitions.
+[9/8/21, 5:20 PM]: Vote Panel Manager has 10h 17m 46s remaining.
+[9/8/21, 5:20 PM]: Loaded 8 default tourney setups.
+17:20:44.584 [GameThread] INFO  i.x.m.entity.npc.drops.DropManager - Loaded 224 drop tables.
+[9/8/21, 5:20 PM]: Total objects: 37952
+[9/8/21, 5:20 PM]: 37952 Object definitions loaded.
+[9/8/21, 5:20 PM]: Loading mapdata..
+17:20:50.354 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3094, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.360 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3095, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.360 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10042, x=3077, y=3496, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.360 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3806, y=2835, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10583, x=3186, y=3436, height=1, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=2494, y=5114, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3082, y=3507, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3286, y=4958, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3279, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4951, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3281, y=4943, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3168, y=4961, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3153, y=4974, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3178, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3155, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3180, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29778, x=3298, y=5185, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26739, x=3430, y=4824, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31925, x=3084, y=3490, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5109, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5106, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.361 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11376, x=3189, y=3932, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3221, y=3502, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3204, y=3503, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3208, y=3499, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=2231, x=3303, y=3951, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3384, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3383, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3382, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2845, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2850, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2445, y=5178, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2783, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2784, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2782, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=2780, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3010, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3011, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3012, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3013, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3014, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.362 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11373, x=3195, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3926, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3481, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3480, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=3035, y=6071, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3840, x=3001, y=3372, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.363 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2958, y=3376, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36201, x=3033, y=6065, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2205, y=3055, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=2536, y=4717, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=3016, y=5625, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29879, x=3231, y=5729, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2959, y=3802, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3092, y=3488, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10439, x=3426, y=2930, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=635, x=3269, y=3410, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.364 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11730, x=2667, y=3310, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2667, y=3303, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11732, x=2663, y=3296, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2933, y=4818, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=13287, x=3106, y=3479, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3828, x=3227, y=3108, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31624, x=2777, y=4847, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36556, x=2783, y=4839, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10833, x=3012, y=3382, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=14402, x=3269, y=3166, height=3, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.365 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=32572, x=3109, y=3482, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:20:50.366 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=3109, y=3483, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+[9/8/21, 5:20 PM]: Xeros has successfully started up in 8 seconds.
+17:20:51.340 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.343 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.924 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.925 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.925 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.926 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.926 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:51.927 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.516 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.516 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.516 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.517 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.517 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.517 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.518 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:52.518 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:53.112 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:53.112 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:53.112 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:53.112 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:20:53.112 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:21:15.489 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Player leviticus has no pending captcha.
+17:21:15.564 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Set "leviticus" display name to "leviticus".
+[9/8/21, 5:21 PM]: Player login queued [name=leviticus, mac=D4-5D-64-45-F1-DB, ip=127.0.0.1:59678, time=86ms]
+17:21:15.977 [GameThread] DEBUG io.xeros.model.entity.player.Player - Set controller to standard, io.xeros.model.controller.DefaultController@4372ffc7
+17:21:15.984 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged in player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+[9/8/21, 5:21 PM]: Leviticus is logging out..
+17:21:55.646 [pool-10-thread-1] DEBUG i.x.m.entity.player.save.PlayerSave - Saving game for player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+17:21:56.245 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged out 'leviticus', 0 in queue.
+17:21:56.557 [New I/O server worker #1-2] DEBUG io.xeros.net.login.RS2LoginProtocol - Player leviticus has no pending captcha.
+17:21:56.628 [New I/O server worker #1-2] DEBUG io.xeros.net.login.RS2LoginProtocol - Set "leviticus" display name to "leviticus".
+[9/8/21, 5:21 PM]: Player login queued [name=leviticus, mac=D4-5D-64-45-F1-DB, ip=127.0.0.1:59698, time=79ms]
+17:21:56.847 [GameThread] DEBUG io.xeros.model.entity.player.Player - Set controller to standard, io.xeros.model.controller.DefaultController@4372ffc7
+17:21:56.849 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged in player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+17:22:46.322 [GameThread] INFO  io.xeros.Server - Server state: DEBUG_SQL
+17:22:46.495 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/callback' ...
+17:22:46.495 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:22:46.496 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Unable to resolve location classpath:db/callback.
+17:22:46.499 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - AWS SDK available: false
+17:22:46.499 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - Google Cloud Storage available: false
+17:22:46.500 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classpath resources at 'classpath:db/migration' ...
+17:22:46.500 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a ...
+17:22:46.500 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning URL: file:/D:/GitHub/Sovark_Server/build/classes/java/main/db/migration
+17:22:46.500 [GameThread] DEBUG o.f.c.internal.util.FeatureDetector - JBoss VFS v2 available: false
+17:22:46.501 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning starting at classpath root in filesystem: D:\GitHub\Sovark_Server\build\classes\java\main\
+17:22:46.501 [GameThread] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner - Scanning for resources in path: D:\GitHub\Sovark_Server\build\classes\java\main\db\migration (db/migration)
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V10__create_event_calendar_tables.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V11__create_vote_record_table.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V12__create_leaderboard_tables.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V1__Example.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V2__create_gim_contest_tables.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V3__create_outlast_leaderboard_tables.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V4__create_outlast_recent_winners_table.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V6__create_reclaimed_donations_table.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V7__create_display_name_table.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V8__add_created_accounts_to_display_names.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class
+17:22:46.502 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class
+17:22:46.503 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Found resource: db/migration/V9__migrate_wogw_contributions_to_database.class
+17:22:46.503 [GameThread] DEBUG o.f.c.i.s.classpath.ClassPathScanner - Scanning for classes at classpath:db/migration
+17:22:46.504 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V10__create_event_calendar_tables
+17:22:46.504 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V11__create_vote_record_table
+17:22:46.505 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V12__create_leaderboard_tables
+17:22:46.505 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V1__Example
+17:22:46.505 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V2__create_gim_contest_tables
+17:22:46.505 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V3__create_outlast_leaderboard_tables
+17:22:46.506 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V4__create_outlast_recent_winners_table
+17:22:46.506 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V5__migrate_reclaimed_donations_into_different_table
+17:22:46.506 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V6__create_reclaimed_donations_table
+17:22:46.506 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V7__create_display_name_table
+17:22:46.507 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V8__add_created_accounts_to_display_names
+17:22:46.507 [GameThread] DEBUG o.f.core.internal.util.ClassUtils - Found class: db.migration.V9__migrate_wogw_contributions_to_database
+17:22:46.625 [GameThread] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 7.11.0 by Redgate
+17:22:46.625 [GameThread] INFO  o.f.c.i.d.base.BaseDatabaseType - Database: jdbc:mysql://127.0.0.1/u382793551_Xeros (MySQL 5.5)
+17:22:46.625 [GameThread] DEBUG o.f.c.i.d.base.BaseDatabaseType - Driver  : MySQL Connector/J mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+17:22:46.642 [GameThread] DEBUG org.flywaydb.core.Flyway - DDL Transactions Supported: false
+17:22:46.643 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Schemas: 
+17:22:46.643 [GameThread] DEBUG o.f.c.i.s.SchemaHistoryFactory - Default schema: null
+17:22:46.649 [GameThread] DEBUG o.f.c.i.c.SqlScriptCallbackFactory - Scanning for SQL callbacks ...
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:22:46.649 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:22:46.655 [GameThread] DEBUG o.f.core.internal.command.DbValidate - Validating migrations ...
+17:22:46.657 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:22:46.657 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:22:46.657 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V10__create_event_calendar_tables.class (filename: V10__create_event_calendar_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V11__create_vote_record_table.class (filename: V11__create_vote_record_table.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V12__create_leaderboard_tables.class (filename: V12__create_leaderboard_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V1__Example.class (filename: V1__Example.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V2__create_gim_contest_tables.class (filename: V2__create_gim_contest_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V3__create_outlast_leaderboard_tables.class (filename: V3__create_outlast_leaderboard_tables.class)
+17:22:46.658 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V4__create_outlast_recent_winners_table.class (filename: V4__create_outlast_recent_winners_table.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V5__migrate_reclaimed_donations_into_different_table.class (filename: V5__migrate_reclaimed_donations_into_different_table.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V6__create_reclaimed_donations_table.class (filename: V6__create_reclaimed_donations_table.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V7__create_display_name_table.class (filename: V7__create_display_name_table.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V8__add_created_accounts_to_display_names.class (filename: V8__add_created_accounts_to_display_names.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$1.class (filename: V9__migrate_wogw_contributions_to_database$1.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class (filename: V9__migrate_wogw_contributions_to_database$WOGWContributionRecordLegacy.class)
+17:22:46.659 [GameThread] DEBUG o.f.core.internal.scanner.Scanner - Filtering out resource: db/migration/V9__migrate_wogw_contributions_to_database.class (filename: V9__migrate_wogw_contributions_to_database.class)
+17:22:46.670 [GameThread] INFO  o.f.core.internal.command.DbValidate - Successfully validated 12 migrations (execution time 00:00.014s)
+17:22:46.676 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `u382793551_xeros`: 12
+17:22:46.677 [GameThread] INFO  o.f.core.internal.command.DbMigrate - Schema `u382793551_xeros` is up to date. No migration necessary.
+17:22:46.682 [GameThread] DEBUG org.flywaydb.core.Flyway - Memory usage: 27 of 512M
+17:22:47.137 [GameThread] INFO  i.x.m.c.ControllerRepository - Loaded 4 controllers.
+17:22:47.312 [GameThread] INFO  i.x.m.entity.player.save.PlayerSave - Loaded 15 Player Save Entries.
+17:22:47.730 [GameThread] INFO  io.xeros.model.definitions.ShopDef - Loaded 51 shops.
+17:22:47.806 [GameThread] INFO  io.xeros.model.definitions.NpcDef - Loaded 9474 npc definitions.
+[9/8/21, 5:22 PM]: Finished loading all punishments.
+[9/8/21, 5:22 PM]: Loaded 73 door definitions.
+[9/8/21, 5:22 PM]: Vote Panel Manager has 10h 15m 43s remaining.
+[9/8/21, 5:22 PM]: Loaded 8 default tourney setups.
+17:22:48.045 [GameThread] INFO  i.x.m.entity.npc.drops.DropManager - Loaded 224 drop tables.
+[9/8/21, 5:22 PM]: Total objects: 37952
+[9/8/21, 5:22 PM]: 37952 Object definitions loaded.
+[9/8/21, 5:22 PM]: Loading mapdata..
+17:22:53.812 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3094, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3095, y=3501, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10042, x=3077, y=3496, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3806, y=2835, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10583, x=3186, y=3436, height=1, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=2494, y=5114, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3082, y=3507, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.818 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3286, y=4958, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3279, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3306, y=4951, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3281, y=4943, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3168, y=4961, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3153, y=4974, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3178, y=4976, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3155, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26741, x=3180, y=4945, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29778, x=3298, y=5185, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=26739, x=3430, y=4824, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31925, x=3084, y=3490, height=0, face=4, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5109, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2836, y=5106, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11376, x=3189, y=3932, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3221, y=3502, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3204, y=3503, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10822, x=3208, y=3499, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=2231, x=3303, y=3951, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.819 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3384, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3383, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=3001, y=3382, height=0, face=1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2845, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2850, y=5088, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2445, y=5178, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2783, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2784, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24347, x=2782, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=2780, y=4847, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3010, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3011, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3012, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3013, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=7674, x=3014, y=3390, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11373, x=3195, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3935, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3192, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3927, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.820 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3193, y=3926, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11375, x=3194, y=3925, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3481, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3097, y=3480, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=23709, x=3035, y=6071, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3840, x=3001, y=3372, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2958, y=3376, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36201, x=3033, y=6065, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2205, y=3055, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=2536, y=4717, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10355, x=3016, y=5625, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=29879, x=3231, y=5729, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.821 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2959, y=3802, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3092, y=3488, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10439, x=3426, y=2930, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=635, x=3269, y=3410, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11730, x=2667, y=3310, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11731, x=2667, y=3303, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=11732, x=2663, y=3296, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=24101, x=2933, y=4818, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=13287, x=3106, y=3479, height=0, face=2, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=3828, x=3227, y=3108, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.822 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=31624, x=2777, y=4847, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=36556, x=2783, y=4839, height=0, face=0, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=10833, x=3012, y=3382, height=0, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=14402, x=3269, y=3166, height=3, face=3, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2585, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2656, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2657, y=2584, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2643, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.823 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2642, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2670, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2593, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=2671, y=2592, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=3, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=32572, x=3109, y=3482, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+17:22:53.824 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=30087, x=3109, y=3483, height=0, face=-1, ticksRemaining=-1, restoreId=0, type=10, instance=null}
+[9/8/21, 5:22 PM]: Xeros has successfully started up in 8 seconds.
+17:22:54.797 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:54.799 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.380 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.380 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.381 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.381 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.382 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.382 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.980 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.980 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.980 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.980 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.980 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.981 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.981 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:55.981 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:56.574 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:56.574 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:56.574 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:56.575 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:22:56.575 [GameThread] WARN  io.xeros.sql.DatabaseManager - DatabaseCredentials are null for query: class io.xeros.sql.etc.HiscoresUpdateQuery
+17:23:02.208 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Player leviticus has no pending captcha.
+17:23:02.282 [New I/O server worker #1-1] DEBUG io.xeros.net.login.RS2LoginProtocol - Set "leviticus" display name to "leviticus".
+[9/8/21, 5:23 PM]: Player login queued [name=leviticus, mac=D4-5D-64-45-F1-DB, ip=127.0.0.1:59734, time=85ms]
+17:23:02.591 [GameThread] DEBUG io.xeros.model.entity.player.Player - Set controller to standard, io.xeros.model.controller.DefaultController@4372ffc7
+17:23:02.597 [GameThread] INFO  i.x.m.entity.player.PlayerHandler - Logged in player[loginName=leviticus, displayName=leviticus, ip=127.0.0.1, mac=D4-5D-64-45-F1-DB, uuid=95611359-6bf1-48c0-af9a-ffe942de2820]
+17:32:55.474 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+17:47:58.655 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+17:47:59.256 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+18:03:01.566 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3200, absY=3629, spawnX=3200, spawnY=3630, name='The Kendal', index=0, instance=null}
+18:03:02.170 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3305, absY=3667, spawnX=3306, spawnY=3668, name='Fragment of Seren', index=0, instance=null}
+18:03:02.770 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3232, absY=3638, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}
+18:18:03.529 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:33:05.898 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+18:33:06.498 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+18:48:09.216 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3306, absY=3667, spawnX=3306, spawnY=3668, name='Fragment of Seren', index=0, instance=null}
+19:03:11.381 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+19:18:14.030 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+19:18:14.632 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+19:33:17.282 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3232, absY=3639, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}
+19:48:19.175 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:03:22.298 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:03:22.898 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+20:18:26.779 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3232, absY=3638, spawnX=3233, spawnY=3638, name='Fragment of Seren', index=0, instance=null}
+20:33:30.006 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:48:33.833 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+20:48:34.435 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+21:03:38.368 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3233, absY=3638, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}
+21:18:41.624 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:33:45.409 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+21:33:46.012 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+21:48:49.895 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3259, absY=3878, spawnX=3258, spawnY=3878, name='Fragment of Seren', index=0, instance=null}
+22:03:53.141 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+22:18:57.000 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+22:18:57.602 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+22:34:01.299 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3259, absY=3877, spawnX=3258, spawnY=3878, name='The Kendal', index=0, instance=null}
+22:49:04.514 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:04:08.228 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:04:08.829 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+23:19:12.588 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3200, absY=3888, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+23:34:15.812 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:49:19.616 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+23:49:20.220 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+00:04:24.077 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3308, absY=3932, spawnX=3307, spawnY=3933, name='The Kendal', index=0, instance=null}
+00:19:27.508 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:34:31.610 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+00:34:32.212 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+00:49:36.229 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3198, absY=3887, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+01:04:39.609 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+01:19:43.551 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+01:19:44.152 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+01:34:48.054 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3307, absY=3667, spawnX=3306, spawnY=3668, name='The Kendal', index=0, instance=null}
+01:49:51.393 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:04:55.267 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:04:55.868 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+02:19:59.843 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3308, absY=3933, spawnX=3307, spawnY=3933, name='Fragment of Seren', index=0, instance=null}
+02:35:03.116 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:50:06.903 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+02:50:07.503 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+03:05:11.354 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3257, absY=3879, spawnX=3258, spawnY=3878, name='The Kendal', index=0, instance=null}
+03:20:14.646 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+03:35:18.594 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+03:35:19.193 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+[9/9/21, 3:41 AM]: Vote Panel Manager has 168h remaining.
+03:50:23.264 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3307, absY=3933, spawnX=3307, spawnY=3933, name='Fragment of Seren', index=0, instance=null}
+04:05:26.669 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+04:20:30.673 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+04:20:31.273 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+04:35:35.254 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3258, absY=3878, spawnX=3258, spawnY=3878, name='The Kendal', index=0, instance=null}
+04:50:38.662 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+05:05:42.501 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+05:05:43.102 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+05:20:47.020 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3200, absY=3886, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+05:35:50.327 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+05:50:54.216 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+05:50:54.815 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+06:05:58.771 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3234, absY=3637, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}
+06:21:02.096 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+06:36:06.054 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+06:36:06.654 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+06:51:10.549 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3234, absY=3639, spawnX=3233, spawnY=3638, name='Fragment of Seren', index=0, instance=null}
+07:06:13.832 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+07:21:17.788 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+07:21:18.389 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+07:36:22.240 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3198, absY=3887, spawnX=3199, spawnY=3887, name='The Kendal', index=0, instance=null}
+07:51:25.563 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+08:06:29.495 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+08:06:30.096 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+08:21:33.999 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3199, absY=3887, spawnX=3199, spawnY=3887, name='Fragment of Seren', index=0, instance=null}
+08:36:37.355 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+08:51:41.239 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+08:51:41.841 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+09:06:45.746 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3305, absY=3668, spawnX=3306, spawnY=3668, name='The Kendal', index=0, instance=null}
+09:21:48.997 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+09:36:52.911 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+09:36:53.510 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+09:51:57.435 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8920, absX=3308, absY=3932, spawnX=3307, spawnY=3933, name='Fragment of Seren', index=0, instance=null}
+10:07:00.682 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=-1, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+10:22:04.514 [GameThread] DEBUG i.x.m.world.objects.GlobalObjects - Add object GlobalObject{id=33730, x=3046, y=3489, height=0, face=1, ticksRemaining=-1, restoreId=-1, type=10, instance=null}
+10:22:05.116 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=8583, absX=3046, absY=3489, spawnX=3046, spawnY=3489, name='Hespori', index=0, instance=null}
+10:37:08.793 [GameThread] DEBUG io.xeros.model.entity.npc.NPC - Unregistered NPC{npcId=1377, absX=3234, absY=3637, spawnX=3233, spawnY=3638, name='The Kendal', index=0, instance=null}

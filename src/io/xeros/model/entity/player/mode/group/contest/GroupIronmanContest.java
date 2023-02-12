@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class GroupIronmanContest {
 
-    // https://www.xeros.io/index.php?/topic/281-xeros-3000-group-ironman-release-giveaway/
+    // https://www.grim.io/index.php?/topic/281-xeros-3000-group-ironman-release-giveaway/
 
     public static void openInterface(Player c) {
         if (c.hitDatabaseRateLimit(true))

@@ -16,7 +16,7 @@ public class News extends Command {
 	public void execute(Player c, String commandName, String input) {
 		 c.getPA()
          .sendFrame126(
-                 "https://www.xeros.io/index.php?/forum/5-update-log/", 12000);
+                 "https://www.grim.io/index.php?/forum/5-update-log/", 12000);
 	}
 
 	@Override

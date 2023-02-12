@@ -3617,7 +3617,6 @@ public class PlayerAssistant {
 		case 19643:
 		case 19645:
 		case 19647:
-			case 25910:
 		case 19649:
 			if (!c.getSlayer().getTask().isPresent()) {
 				c.sendMessage("You do not have a task!");

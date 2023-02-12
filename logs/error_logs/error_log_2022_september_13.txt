@@ -1,0 +1,24 @@
+Sep 13, 2022 2:32:01 AM io.xeros.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 2:32:01 AM io.xeros.model.definitions.ItemDef load
+INFO: Loaded 14047 item definitions.
+Sep 13, 2022 2:32:02 AM io.xeros.model.definitions.NpcStats load
+INFO: Loaded 2906 npc stats.
+Sep 13, 2022 2:32:02 AM io.xeros.model.definitions.ItemStats load
+INFO: Loaded 9767 item stats.
+Sep 13, 2022 2:32:02 AM io.xeros.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 2:32:02 AM io.xeros.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 2 lobbies.
+Sep 13, 2022 2:32:28 AM io.xeros.model.collisionmap.Region load
+INFO: Loaded 52 custom maps.
+Sep 13, 2022 2:32:28 AM io.xeros.model.collisionmap.Region load
+INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
+Sep 13, 2022 2:32:28 AM io.xeros.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3217 npcs.
+Sep 13, 2022 2:32:29 AM io.xeros.content.commands.CommandManager initializeCommands
+INFO: Loaded 261 commands.
+Sep 13, 2022 2:32:29 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 2:32:29 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
+WARNING: No daily reward claims found.

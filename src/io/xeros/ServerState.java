@@ -1,13 +1,13 @@
 package io.xeros;
 
 public enum ServerState {
-	PUBLIC(Configuration.PORT_DEFAULT, false, false),
-	TEST_PUBLIC(Configuration.PORT_DEFAULT, false, false),
+	PUBLIC(Configuration.PORT_DEFAULT, false, true),
+	TEST_PUBLIC(Configuration.PORT_DEFAULT, false, true),
 
 	/**
 	 * Same as public but no sql and allows item spawning.
 	 */
-	PUBLIC_BETA(Configuration.PORT_DEFAULT, false, false,
+	PUBLIC_BETA(Configuration.PORT_DEFAULT, true, false,
 			"Thank you for testing the " + Configuration.SERVER_NAME + " beta.",
 			"Please report any bugs in the discord."),
 
@@ -15,7 +15,7 @@ public enum ServerState {
 	 * Uses {@link Configuration#PORT_TEST} as the port.
 	 * Many in-game events are sped up to allow for easier testing.
 	 */
-	TEST(Configuration.PORT_DEFAULT,  true, false),
+	TEST(Configuration.PORT_DEFAULT, true, false),
 
 	/**
 	 * Debug the server with auto-admin, spawning, no tutorial, no sql, multi-log enabled.
@@ -23,7 +23,7 @@ public enum ServerState {
 	 * Also counts as {@link ServerState#TEST} mode.
 	 */
 	DEBUG(Configuration.PORT_DEFAULT, true, false),
-	DEBUG_SQL(Configuration.PORT_DEFAULT, false, false),
+	DEBUG_SQL(Configuration.PORT_DEFAULT, true, true),
 	;
 
 	private final int port;

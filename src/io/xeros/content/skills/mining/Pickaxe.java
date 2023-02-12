@@ -1,11 +1,11 @@
 package io.xeros.content.skills.mining;
 
-import io.xeros.content.skills.Skill;
-import io.xeros.model.entity.player.Player;
-
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Set;
+
+import io.xeros.content.skills.Skill;
+import io.xeros.model.entity.player.Player;
 
 /**
  * An enumeration of mining pickaxes.
@@ -22,7 +22,7 @@ public enum Pickaxe {
 		ADAMANT(5, 1271, 31, 6750, 7), 
 		RUNE(6, 1275, 41, 6746, 10), 
 		DRAGON(7, 11920, 61, 7139, 13), 
-		DRAGON2(7, 12797, 61, 335, 13),
+		DRAGON2(7, 12797, 61, 7139, 13), 
 		DRAGON_OR(8, 23677, 61, 335, 13), 
 		INFERNAL(9, 13243, 61, 4482, 13), 
 		THIRD_AGE(10, 20014, 61, 7283, 15);
