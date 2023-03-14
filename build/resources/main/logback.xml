@@ -34,6 +34,6 @@
     <logger name="io.netty.buffer" level="ERROR"/>
 
     <!-- Game server -->
-    <logger name="io.xeros.model.entity.npc" level="ERROR"/>
-    <logger name="io.xeros.sql.DatabaseManager" level="ERROR"/>
+    <logger name="io.Odyssey.model.entity.npc" level="ERROR"/>
+    <logger name="io.Odyssey.sql.DatabaseManager" level="ERROR"/>
 </configuration>

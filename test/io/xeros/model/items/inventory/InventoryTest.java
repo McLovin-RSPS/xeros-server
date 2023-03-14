@@ -1,9 +1,9 @@
-package io.xeros.model.items.inventory;
+package io.Odyssey.model.items.inventory;
 
-import io.xeros.ServerState;
-import io.xeros.model.Items;
-import io.xeros.model.items.GameItem;
-import io.xeros.test.ServerTest;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.Items;
+import io.Odyssey.model.items.GameItem;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

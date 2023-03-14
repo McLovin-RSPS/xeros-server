@@ -1,7 +1,7 @@
 [ACCOUNT]
 character-username = owner
 display-name = owner
-character-password = $2a$10$pdYdHYifSbgtPhGRsBPOGOp6NoLAIlCx/D.BxcpIJhdSrLu2pnjhy
+character-password = $2a$10$PNwcYR8p1/62HSjNZJuJ1.0wEnJG6qK8whpZA/.HORBTDFKtThbT2
 
 [CHARACTER]
 character-rights = 3
@@ -15,12 +15,12 @@ dropBoostStart = 0
 mode = STANDARD
 character-height = 0
 character-hp = 10
-play-time = 25
+play-time = 18
 last-clan = 
 require-pin-unlock = false
 character-specRestore = 0
-character-posx = 3090
-character-posy = 3493
+character-posx = 3163
+character-posy = 3475
 bank-pin = 
 bank-pin-cancellation = false
 bank-pin-unlock-delay = 0
@@ -74,8 +74,8 @@ fasterClueScrollTime = 0
 skillingPetRateScroll = false
 skillingPetRateTime = 0
 activeMageArena2BossId  = 0	0	0
-mageArena2SpawnsX  = 3334	3246	3269
-mageArena2SpawnsY  = 3903	3830	3843
+mageArena2SpawnsX  = 3173	3236	3151
+mageArena2SpawnsY  = 3898	3878	3881
 mageArenaBossKills  = false	false	false
 mageArena2Stages  = true	false	false	false	false
 flamesOfZamorakCasts  = 0
@@ -136,11 +136,13 @@ pkp = 0
 elvenCharge = 0
 slaughterCharge = 0
 tomeOfFirePages = 0
-tomeOfFireCharges = 20
+tomeOfFireCharges = 0
 ether =0
-crawsbowCharge = 0
-thammaronCharge = 0
-viggoraCharge = 0
+bofas =0
+cstaf =0
+crawsbowCharge = 20000
+thammaronCharge = 20000
+viggoraCharge = 20000
 bossPoints = 0
 bossPointsRefund = true
 tWin = 0
@@ -221,29 +223,29 @@ firstAchievementLoginJune2021 = true
 controller = standard
 joinedIronmanGroup = false
 receivedCalendarCosmeticJune2021 = false
-ironman_revert_type = STANDARD
-collection_box = 
 autocast = false
 autocast_defensive = false
 autocast_id = -1
+compromised_account_type = ;false
+200mtime = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 wild_warning = 0
+friends-list = 
+style_warning_toggle = false
+boss_kill_times = 
+weapon_mode_3 = 0
+set_first_bank_pin = false
 Learning The Ropes = 0
 Horror From The Deep = 0
 Monkey Madness = 0
-set_first_bank_pin = false
-weapon_mode_3 = 0
 trouver_items = 
-compromised_account_type = ;false
-bank_pin_2021_message = true
-boss_kill_times = 
-200mtime = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-friends-list = 
-style_warning_toggle = false
-daily_rewards_streak = 0
+collection_box = 
 lost_property = 
+bank_pin_2021_message = true
 donation_reward_amount = 0
-donation_reward_reset_week = 2022:9:18:23:59
+donation_reward_reset_week = 2022:4:17:23:59
+daily_rewards_streak = 0
 recent_killed = 
+ironman_revert_type = STANDARD
 
 [EQUIPMENT]
 character-equip = 0	-1	1	
@@ -262,19 +264,19 @@ character-equip = 12	-1	1
 character-equip = 13	-1	0	
 
 [LOOK]
-character-look = 0	0
-character-look = 1	0
-character-look = 2	18
-character-look = 3	26
-character-look = 4	33
-character-look = 5	36
-character-look = 6	42
-character-look = 7	10
+character-look = 0	1
+character-look = 1	47
+character-look = 2	57
+character-look = 3	62
+character-look = 4	67
+character-look = 5	76
+character-look = 6	79
+character-look = 7	-1
 character-look = 8	0
-character-look = 9	0
-character-look = 10	0
-character-look = 11	0
-character-look = 12	0
+character-look = 9	7
+character-look = 10	24
+character-look = 11	4
+character-look = 12	5
 
 [SKILLS]
 character-skill = 0	1	0	false	0
@@ -306,20 +308,20 @@ character-skill = 24	1	0	false	0
 [ITEMS]
 
 [RECHARGEITEMS]
-item = 	0	3	2021-08-17 12:29:41
-item = 	13120	2	2021-08-17 12:29:41
-item = 	1	3	2021-08-17 12:29:41
-item = 	2	150	2021-08-17 12:29:41
-item = 	13125	2	2021-08-17 12:29:41
-item = 	13126	3	2021-08-17 12:29:41
-item = 	13127	4	2021-08-17 12:29:41
-item = 	13128	3	2021-08-17 12:29:41
-item = 	13143	1	2021-08-17 12:29:41
-item = 	13111	5	2021-08-17 12:29:41
-item = 	13144	1	2021-08-17 12:29:41
-item = 	13117	1	2021-08-17 12:29:41
-item = 	13118	1	2021-08-17 12:29:41
-item = 	13119	1	2021-08-17 12:29:41
+item = 	0	3	2022-04-15 08:58:19
+item = 	13120	2	2022-04-15 08:58:19
+item = 	1	3	2022-04-15 08:58:19
+item = 	2	150	2022-04-15 08:58:19
+item = 	13125	2	2022-04-15 08:58:19
+item = 	13126	3	2022-04-15 08:58:19
+item = 	13127	4	2022-04-15 08:58:19
+item = 	13128	3	2022-04-15 08:58:19
+item = 	13143	1	2022-04-15 08:58:19
+item = 	13111	5	2022-04-15 08:58:19
+item = 	13144	1	2022-04-15 08:58:19
+item = 	13117	1	2022-04-15 08:58:19
+item = 	13118	1	2022-04-15 08:58:19
+item = 	13119	1	2022-04-15 08:58:19
 
 [BANK]
 

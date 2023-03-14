@@ -73,13 +73,13 @@ uncommon:
     minimum: 50
     maximum: 50
 rare:
-  accessibility: 215
+  accessibility: 100
   items:
   - name: "trident of the seas"
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 400
+  accessibility: 200
   items:
   - name: "kraken tentacle"
     minimum: 1

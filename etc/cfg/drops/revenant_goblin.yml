@@ -100,21 +100,30 @@ uncommon:
   - item: 4185
     maximum: 1
     minimum: 1
-rare:
-  accessibility: 500
-  items:
-  - item: 2996
-    maximum: 200
-    minimum: 100
 very_rare:
-  accessibility: 1500
+  accessibility: 250
   items:
-  - name: "thammarons sceptre u"
-    minimum: 1
-    maximum: 1
-  - name: "viggoras chainmace u"
-    minimum: 1
-    maximum: 1
-  - name: "craws bow u"
-    minimum: 1
-    maximum: 1
+    - name: "thammarons sceptre u"
+      minimum: 1
+      maximum: 1
+    - name: "viggoras chainmace u"
+      minimum: 1
+      maximum: 1
+    - name: "craws bow u"
+      minimum: 1
+      maximum: 1
+mega_rare:
+  accessibility: 2000
+  items:
+    - item: 995
+      maximum: 100000000
+      minimum: 50000000
+    - item: 8818
+      maximum: 1
+      minimum: 1
+    - item: 8815
+      maximum: 1
+      minimum: 1
+    - item: 23900
+      maximum: 1
+      minimum: 1

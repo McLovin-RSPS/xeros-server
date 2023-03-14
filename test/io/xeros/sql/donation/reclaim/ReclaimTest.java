@@ -1,16 +1,16 @@
-package io.xeros.sql.donation.reclaim;
+package io.Odyssey.sql.donation.reclaim;
 
 import com.google.common.base.Preconditions;
-import io.xeros.Server;
-import io.xeros.ServerState;
-import io.xeros.model.entity.player.Player;
-import io.xeros.model.entity.player.save.PlayerSaveOffline;
-import io.xeros.sql.DatabaseCredentials;
-import io.xeros.sql.DatabaseManager;
-import io.xeros.sql.EmbeddedDatabase;
-import io.xeros.sql.SqlQuery;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
+import io.Odyssey.Server;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.model.entity.player.save.PlayerSaveOffline;
+import io.Odyssey.sql.DatabaseCredentials;
+import io.Odyssey.sql.DatabaseManager;
+import io.Odyssey.sql.EmbeddedDatabase;
+import io.Odyssey.sql.SqlQuery;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
 import org.junit.jupiter.api.*;
 
 import java.io.BufferedWriter;

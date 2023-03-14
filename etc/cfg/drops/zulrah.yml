@@ -76,7 +76,7 @@ uncommon:
     minimum: 1
     maximum: 1
 rare:
-  accessibility: 120
+  accessibility: 100
   items:
   - name: "tanzanite fang"
     minimum: 1
@@ -91,7 +91,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 500
+  accessibility: 100
   items:
   - name: "tanzanite mutagen"
     minimum: 1

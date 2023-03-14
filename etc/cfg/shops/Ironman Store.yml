@@ -2,7 +2,6 @@
 id: 41
 name: "Ironman Store"
 items:
-- name: "teleport to house"
 - name: "enchanted gem"
 - name: "tinderbox"
 - name: "hammer"
@@ -21,7 +20,7 @@ items:
 - name: "cleaning cloth"
 - name: "chisel"
 - name: "glassblowing pipe"
-- name: "molten glass"
+- name: "molten glass noted"
 - name: "pestle and mortar"
 - name: "newly made crystal"
 - name: "cave nightshade"
@@ -42,18 +41,26 @@ items:
 - name: "feather"
 - name: "bronze arrow"
 - name: "shortbow"
-- name: "uncut opal"
+- name: "uncut opal noted"
 - name: "amulet of strength"
 - name: "thread"
 - name: "needle"
 - name: "fire rune"
+  price: 100
 - name: "water rune"
+  price: 100
 - name: "air rune"
+  price: 100
 - name: "earth rune"
+  price: 100
 - name: "mind rune"
+  price: 100
 - name: "body rune"
+  price: 100
 - name: "chaos rune"
 - name: "blood rune"
+- name: "nature rune"
+  price: 750
 - name: "death rune"
 - name: "cosmic rune"
 - name: "soul rune"
@@ -72,3 +79,16 @@ items:
 - name: "cannonball"
 - name: "shield right half"
 - name: "mith grapple"
+- id: "4675"
+- id: "4156"
+- name: "staff of fire"
+- name: "dragon arrow"
+  price: 900
+- id: "23877"
+  price: 900
+- name: "shears"
+  price: 900
+- name: "compost"
+  price: 100
+- id: "9242"
+  price: 950

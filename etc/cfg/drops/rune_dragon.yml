@@ -3,12 +3,12 @@ npc_id: 8031
 constant:
   accessibility: 0
   items:
-  - name: "dragon bones"
+  - name: "dragon bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 4
   - name: "runite bar"
     minimum: 1
-    maximum: 1
+    maximum: 2
 common:
   accessibility: 1
   items:

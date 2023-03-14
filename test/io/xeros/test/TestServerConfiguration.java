@@ -1,8 +1,8 @@
-package io.xeros.test;
+package io.Odyssey.test;
 
-import io.xeros.Server;
-import io.xeros.ServerConfiguration;
-import io.xeros.ServerState;
+import io.Odyssey.Server;
+import io.Odyssey.ServerConfiguration;
+import io.Odyssey.ServerState;
 
 import java.io.IOException;
 

@@ -1,0 +1,32 @@
+[Thu Mar 09 05:29:31 CST 2023]: Launching Surge.
+05:29:32.356 [GameThread] INFO  io.Odyssey.Server - Server state: PUBLIC
+05:29:34.857 [GameThread] INFO  io.Odyssey.model.entity.player.mode.group.GroupIronmanRepository - Loaded 4 group ironman groups.
+05:29:35.107 [GameThread] INFO  io.Odyssey.model.controller.ControllerRepository - Loaded 9 controllers.
+05:29:35.404 [GameThread] INFO  io.Odyssey.model.entity.player.save.PlayerSave - Loaded 18 Player Save Entries.
+05:29:36.388 [GameThread] INFO  io.Odyssey.model.definitions.ShopDef - Loaded 51 shops.
+05:29:36.529 [GameThread] INFO  io.Odyssey.model.definitions.NpcDef - Loaded 12108 npc definitions.
+[3/9/23, 5:29 AM]: Loaded 3206 NPC Combat definitions...
+[3/9/23, 5:29 AM]: Finished loading all punishments.
+[3/9/23, 5:29 AM]: Loaded 73 door definitions.
+[3/9/23, 5:29 AM]: Vote Panel Manager has 128h 38m 27s remaining.
+[3/9/23, 5:29 AM]: Loaded 8 default tourney setups.
+[3/9/23, 5:29 AM]: Total objects: 47178
+[3/9/23, 5:29 AM]: 47178 Object definitions loaded.
+[3/9/23, 5:29 AM]: Loading mapdata..
+05:29:37.616 [player-save-backup-0] INFO  io.Odyssey.model.entity.player.save.PlayerSave - Saved 0 online users.
+[3/9/23, 5:29 AM]: Surge has successfully started up in 6 seconds.
+05:29:43.447 [pool-9-thread-1] INFO  io.Odyssey.net.login.RS2LoginProtocol - Display names are disabled, using login name as display name.
+05:29:43.456 [pool-9-thread-1] INFO  io.Odyssey.net.login.RS2LoginProtocol - Player login queued [name=grim, mac=F4-4D-30-9C-8E-44, ip=127.0.0.1:50211, time=326ms]
+05:30:08.294 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=0m 30s, connections=0, players=0, uniques=0, npcs=3438, reserved-heights=0, average-cycle-time=19ms, handshakes-per-tick=0, memory=108.6 MB/180 MB]
+05:30:38.892 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=1m, connections=0, players=0, uniques=0, npcs=3438, reserved-heights=0, average-cycle-time=14ms, handshakes-per-tick=0, memory=112.7 MB/180 MB]
+05:31:09.474 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=1m 30s, connections=0, players=0, uniques=0, npcs=3438, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=108.5 MB/180 MB]
+05:31:40.059 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=2m, connections=0, players=0, uniques=0, npcs=3438, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=103.6 MB/180 MB]
+05:32:10.570 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=2m 30s, connections=0, players=0, uniques=0, npcs=3438, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=98.6 MB/180 MB]
+05:32:41.043 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=3m, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=92.7 MB/180 MB]
+05:33:11.555 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=3m 30s, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=87.5 MB/180 MB]
+05:33:42.029 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=4m, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=83.8 MB/180 MB]
+05:34:12.592 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=4m 30s, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=70.7 MB/180 MB]
+05:34:43.028 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=5m, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=13ms, handshakes-per-tick=0, memory=61.7 MB/180 MB]
+05:35:13.447 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=5m 30s, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=12ms, handshakes-per-tick=0, memory=52.7 MB/180 MB]
+05:35:43.892 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=6m, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=12ms, handshakes-per-tick=0, memory=147.7 MB/180 MB]
+05:36:14.353 [GameThread] INFO  io.Odyssey.GameThread - Status [runtime=6m 30s, connections=0, players=0, uniques=0, npcs=3439, reserved-heights=0, average-cycle-time=12ms, handshakes-per-tick=0, memory=139.7 MB/180 MB]

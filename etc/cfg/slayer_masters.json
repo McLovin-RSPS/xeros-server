@@ -518,207 +518,234 @@
         ]
     },
     {
-        "id": 6797,
-        "levelRequired": 101,
-        "pointRewards": [ 50 ],
-        "available": [
-          {
-            "names": [ "sarachnis" ],
-            "level": 1,
-            "experience": 400,
-            "minimum": 15,
-            "maximum": 45,
-            "locations": [ "Boss Teleport" ],
-            "teleport": [1842, 9928, 0]
-          },
-          {
-            "names": [ "vorkath" ],
-            "level": 1,
-            "experience": 350,
-            "minimum": 15,
-            "maximum": 45,
-            "locations": [ "Boss Teleport" ],
-            "teleport": [2272, 4050, 0]
-          },
-          {
-            "names": [ "the nightmare" ],
-            "level": 1,
-            "experience": 1000,
-            "minimum": 1,
-            "maximum": 5,
-            "locations": [ "nightmare teleport" ],
-            "teleport": [3808, 9747, 1]
-          },
-             {
-                "names": [ "kree'arra" ],
-                "level": 1,
-                "experience": 357,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "godwars dungeon" ],
-                "teleport": [2839, 5293, 2]
-            },
-          {
-            "names": [ "corporeal beast" ],
-            "level": 1,
-            "experience": 2000,
-            "minimum": 9,
-            "maximum": 20,
-            "locations": [ "corporeal beast" ],
-            "teleport": [2968, 4384, 2]
-          },
-            {
-                "names": [ "general graardor" ],
-                "level": 1,
-                "experience": 338,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "godwars dungeon" ],
-                "teleport": [2860, 5354, 2]
-            },
-            {
-                "names": [ "k'ril tsutsaroth" ],
-                "level": 1,
-                "experience": 350,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "godwars dungeon" ],
-                "teleport": [2925, 5335, 2]
-            },
-            {
-                "names": [ "commander zilyana" ],
-                "level": 1,
-                "experience": 350,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "wilderness" ],
-                "teleport": [2919, 5281, 1]
-            },
-            {
-                "names": [ "venenatis" ],
-                "level": 1,
-                "experience": 388,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "wilderness" ],
-                "teleport": [3345, 3754, 0]
-            },
-			{
-                "names": [ "thermonuclear smoke devil" ],
-                "level": 93,
-                "experience": 240,
-                "minimum": 9,
-                "maximum": 20,
-                "locations": [ "Smoke Devil Teleport[Bosses]" ],
-                "teleport": [2404, 9417, 0]
-            },
-            {
-                "names": [ "king black dragon" ],
-                "level": 1,
-                "experience": 250,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "wilderness" ],
-                "teleport": [3005, 3849, 0]
-            },
-            {
-                "names": [ "barrelchest" ],
-                "level": 1,
-                "experience": 250,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "bosses" ],
-                "teleport": [2903, 3612, 0]
-            },
-            {
-                "names": [ "giant mole" ],
-                "level": 1,
-                "experience": 200,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "fally park" ],
-                "teleport": [2996, 3376, 0]
-            },
-            {
-             "names": [ "alchemical hydra", "hydra" ],
-                "level": 95,
-                "experience": 350,
-                "minimum": 20,
-                "maximum": 50,
-                "locations": [ "Hydra Teleport" ],
-                "teleport": [2461, 9814, 0] 
-            },
-            {
-                "names": [ "zulrah" ],
-                "level": 1,
-                "experience": 500,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "Zul-Areth" ],
-                "teleport": [2203, 3056, 0]
-            },
-            {
-                "names": [ "cerberus" ],
-                "level": 91,
-                "experience": 450,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "cerberus lair" ],
-                "teleport": [1310, 1248, 0]
-            },
-            {
-                "names": [ "lizardman shaman" ],
-                "level": 1,
-                "experience": 250,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "lizardman canyon" ],
-                "teleport": [1558, 3696, 0]
-            },
-            {
-                "names": [ "demonic gorilla" ],
-                "level": 1,
-                "experience": 250,
-                "minimum": 20,
-                "maximum": 70,
-                "locations": [ "demonic gorilla dungeon" ],
-                "teleport": [2119, 5660, 0]
-            },
-            {
-                "names": [ "kalphite queen" ],
-                "level": 1,
-                "experience": 280,
-                "minimum": 5,
-                "maximum": 10,
-                "locations": [ "desert kalphite hive" ],
-                "teleport": [3508, 9493, 2]
-            },
-            {
-                "names": [ "dagannoth kings", "dagannoth rex", "dagannoth prime", "dagannoth supreme", "dagannoth mother" ],
-                "level": 1,
-                "experience": 225,
-                "minimum": 7,
-                "maximum": 20,
-                "locations": [ "dagannoth cave" ],
-                "teleport": [1908, 4364, 0]
-            },
-          {
-            "names": [ "abyssal sire" ],
-            "level": 1,
-            "experience": 450,
-            "minimum": 1,
-            "maximum": 3,
-            "locations": [ "Abyss dungeon" ],
-            "teleport": [3088, 4767, 0]
-          }
-		]
- 	},
-	{
+      "id": 6797,
+      "levelRequired": 101,
+      "pointRewards": [ 50 ],
+      "available": [
+        {
+          "names": [ "sarachnis" ],
+          "level": 1,
+          "experience": 400,
+          "minimum": 15,
+          "maximum": 45,
+          "locations": [ "Boss Teleport" ],
+          "teleport": [1842, 9928, 0]
+        },
+        {
+          "names": [ "vorkath" ],
+          "level": 1,
+          "experience": 350,
+          "minimum": 15,
+          "maximum": 45,
+          "locations": [ "Boss Teleport" ],
+          "teleport": [2272, 4050, 0]
+        },
+        {
+          "names": [ "the nightmare" ],
+          "level": 1,
+          "experience": 1000,
+          "minimum": 1,
+          "maximum": 5,
+          "locations": [ "nightmare teleport" ],
+          "teleport": [3808, 9747, 1]
+        },
+        {
+          "names": [ "kree'arra" ],
+          "level": 1,
+          "experience": 357,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "godwars dungeon" ],
+          "teleport": [2839, 5293, 2]
+        },
+        {
+          "names": [ "kree'arra" ],
+          "level": 1,
+          "experience": 357,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "godwars dungeon" ],
+          "teleport": [2839, 5293, 2]
+        },
+        {
+          "names": [ "kree'arra" ],
+          "level": 1,
+          "experience": 357,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "godwars dungeon" ],
+          "teleport": [2839, 5293, 2]
+        },
+        {
+          "names": [ "corporeal beast" ],
+          "level": 1,
+          "experience": 2000,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "corporeal beast" ],
+          "teleport": [2968, 4384, 2]
+        },
+        {
+          "names": [ "general graardor" ],
+          "level": 1,
+          "experience": 338,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "godwars dungeon" ],
+          "teleport": [2860, 5354, 2]
+        },
+        {
+          "names": [ "NEX" ],
+          "level": 1,
+          "experience": 3380,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "NEX" ],
+          "teleport": [2906, 5203, 0]
+        },
+        {
+          "names": [ "k'ril tsutsaroth" ],
+          "level": 1,
+          "experience": 350,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "godwars dungeon" ],
+          "teleport": [2925, 5335, 2]
+        },
+        {
+          "names": [ "commander zilyana" ],
+          "level": 1,
+          "experience": 350,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "wilderness" ],
+          "teleport": [2919, 5281, 1]
+        },
+        {
+          "names": [ "venenatis" ],
+          "level": 1,
+          "experience": 388,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "wilderness" ],
+          "teleport": [3345, 3754, 0]
+        },
+        {
+          "names": [ "thermonuclear smoke devil" ],
+          "level": 93,
+          "experience": 240,
+          "minimum": 9,
+          "maximum": 20,
+          "locations": [ "Smoke Devil Teleport[Bosses]" ],
+          "teleport": [2404, 9417, 0]
+        },
+        {
+          "names": [ "king black dragon" ],
+          "level": 1,
+          "experience": 250,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "wilderness" ],
+          "teleport": [3005, 3849, 0]
+        },
+        {
+          "names": [ "barrelchest" ],
+          "level": 1,
+          "experience": 250,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "bosses" ],
+          "teleport": [2903, 3612, 0]
+        },
+        {
+          "names": [ "giant mole" ],
+          "level": 1,
+          "experience": 200,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "fally park" ],
+          "teleport": [2996, 3376, 0]
+        },
+        {
+          "names": [ "alchemical hydra", "hydra" ],
+          "level": 95,
+          "experience": 350,
+          "minimum": 20,
+          "maximum": 50,
+          "locations": [ "Hydra Teleport" ],
+          "teleport": [2461, 9814, 0]
+        },
+        {
+          "names": [ "zulrah" ],
+          "level": 1,
+          "experience": 500,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "Zul-Areth" ],
+          "teleport": [2203, 3056, 0]
+        },
+        {
+          "names": [ "cerberus" ],
+          "level": 91,
+          "experience": 450,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "cerberus lair" ],
+          "teleport": [1310, 1248, 0]
+        },
+        {
+          "names": [ "lizardman shaman" ],
+          "level": 1,
+          "experience": 250,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "lizardman canyon" ],
+          "teleport": [1558, 3696, 0]
+        },
+        {
+          "names": [ "demonic gorilla" ],
+          "level": 1,
+          "experience": 250,
+          "minimum": 20,
+          "maximum": 70,
+          "locations": [ "demonic gorilla dungeon" ],
+          "teleport": [2119, 5660, 0]
+        },
+        {
+          "names": [ "kalphite queen" ],
+          "level": 1,
+          "experience": 280,
+          "minimum": 5,
+          "maximum": 10,
+          "locations": [ "desert kalphite hive" ],
+          "teleport": [3508, 9493, 2]
+        },
+        {
+          "names": [ "dagannoth kings", "dagannoth rex", "dagannoth prime", "dagannoth supreme", "dagannoth mother" ],
+          "level": 1,
+          "experience": 225,
+          "minimum": 7,
+          "maximum": 20,
+          "locations": [ "dagannoth cave" ],
+          "teleport": [1908, 4364, 0]
+        },
+        {
+          "names": [ "abyssal sire" ],
+          "level": 1,
+          "experience": 450,
+          "minimum": 1,
+          "maximum": 3,
+          "locations": [ "Abyss dungeon" ],
+          "teleport": [3088, 4767, 0]
+        }
+      ]
+    },
+  {
         "id": 7663,
         "levelRequired": 100,
         "pointRewards": [ 50],
         "available": [
-            {              
+            {
                 "names": [ "lava dragon" ],
                 "level": 1,
                 "experience": 228,
@@ -845,7 +872,7 @@
 				"teleport": [3288, 3884, 0]
             },
 			{
-                "names": [ "black demon" ],
+                "names": [ "colossal hydra" ],
                 "level": 1,
                 "experience": 137,
                 "minimum": 25,
@@ -854,7 +881,7 @@
 				"teleport": [3090, 9957, 0]
             },
 			{
-                "names": [ "ice warrior" ],
+                "names": [ "crushing hand" ],
                 "level": 1,
                 "experience": 49,
                 "minimum": 45,
@@ -863,7 +890,7 @@
 				"teleport": [2957, 3895, 0]
             },
 			{
-                "names": [ "ankou" ],
+                "names": [ "greater abyssal demon" ],
                 "level": 1,
                 "experience": 50,
                 "minimum": 45,
@@ -872,7 +899,7 @@
 				"teleport": [2968, 3748, 0]
             },
 			{
-                "names": [ "ent" ],
+                "names": [ "insatiable mutated bloodveld" ],
                 "level": 1,
                 "experience": 55,
                 "minimum": 35,
@@ -881,7 +908,7 @@
 				"teleport": [3231, 3692, 0]
             },
 			{
-                "names": [ "hellhound" ],
+                "names": [ "king kurask" ],
                 "level": 1,
                 "experience": 96,
                 "minimum": 55,
@@ -890,7 +917,7 @@
 				"teleport": [3178, 3950, 0]
             },
 			{
-                "names": [ "earth warrior" ],
+                "names": [ "malevolent mage" ],
                 "level": 1,
                 "experience": 44,
                 "minimum": 35,
@@ -899,7 +926,7 @@
 				"teleport": [3122, 9995, 0]
             },
 			{
-                "names": [ "mammoth" ],
+                "names": [ "night beast" ],
                 "level": 1,
                 "experience": 120,
                 "minimum": 25,
@@ -946,8 +973,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 					"names": ["crystalline spider"],
@@ -956,8 +983,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 					"names": ["crystalline bat"],
@@ -966,8 +993,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 					"names": ["crystalline unicorn"],
@@ -976,8 +1003,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 					"names": ["crystalline scorpion"],
@@ -986,8 +1013,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 					"names": ["crystalline wolf"],
@@ -996,8 +1023,8 @@
 	                "minimum": 40,
 	                "maximum": 90,
 	                "locations": [ "Crystalline dungeon" ],
-	                "teleport": [3225, 12439, 0]    
-	                
+	                "teleport": [3225, 12439, 0]
+
 	    },
 		{
 				    "names": ["crystalline bear"],
@@ -1006,7 +1033,7 @@
 	                "minimum": 40,
 	                "maximum": 90,
 					"locations": [ "Crystalline dungeon" ],
-					"teleport": [3225, 12439, 0]    
+					"teleport": [3225, 12439, 0]
 		},
 		{
 					 "names": ["crystalline dragon"],
@@ -1015,7 +1042,7 @@
 				     "minimum": 40,
 				     "maximum": 90,
 					 "locations": [ "Crystalline dungeon" ],
-					 "teleport": [3225, 12439, 0]    
+					 "teleport": [3225, 12439, 0]
 		},
 		{
 				    "names": ["crystalline dark beast"],
@@ -1024,7 +1051,7 @@
 	                "minimum": 40,
 	                "maximum": 90,
 					"locations": [ "Crystalline dungeon" ],
-					"teleport": [3225, 12439, 0]    
+					"teleport": [3225, 12439, 0]
 		            }
 	    	]
 	    },	

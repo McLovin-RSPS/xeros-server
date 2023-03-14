@@ -84,7 +84,7 @@ INSERT INTO `fx_sites` (`id`, `title`, `url`, `site_id`, `active`) VALUES
 (2, 'Rune-Locus (1 point)', 'http://www.runelocus.com/top-rsps-list/vote-{sid}/?id2={incentive}', '46194', 1),
 (6, 'TopG (1 Point)', 'https://topg.org/Runescape/in-{sid}-{incentive}', '517107', 1),
 (8, 'RSPS100 (1 Point)', 'http://rsps100.com/vote/{sid}/{incentive}', '1757', 1),
-(9, 'Not Required (0 points)', 'https://www.rsps-list.com/index.php?a=in&u={sid}&id={incentive}', 'Xeros', 1);
+(9, 'Not Required (0 points)', 'https://www.rsps-list.com/index.php?a=in&u={sid}&id={incentive}', 'Odyssey', 1);
 
 -- --------------------------------------------------------
 

@@ -3,9 +3,9 @@ npc_id: 2266
 constant:
   accessibility: 0
   items:
-  - name: "dagannoth bones"
+  - name: "dagannoth bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 5
 common:
   accessibility: 1
   items:
@@ -67,7 +67,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 50
+  accessibility: 40
   items:
   - name: "dragon axe"
     minimum: 1

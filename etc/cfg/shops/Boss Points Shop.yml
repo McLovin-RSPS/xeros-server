@@ -17,20 +17,20 @@ items:
   price: 3
 
 - name: "divine ranging potion4 noted"
-  price: 50
+  price: 3
 - name: "divine magic potion4 noted"
-  price: 50
+  price: 3
 - name: "divine super combat potion4 noted"
-  price: 50
+  price: 3
 
 - name: "casket"
   price: 200
 - name: "crystal key"
-  price: 450
+  price: 150
 
 
 - name: "overload 4"
-  price: 225
+  price: 10
 
 - name: "fighter torso"
   price: 1000

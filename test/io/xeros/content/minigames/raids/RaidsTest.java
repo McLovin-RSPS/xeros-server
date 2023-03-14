@@ -1,14 +1,14 @@
-package io.xeros.content.minigames.raids;
+package io.Odyssey.content.minigames.raids;
 
 import com.google.common.collect.Lists;
-import io.xeros.ServerState;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
+import io.Odyssey.ServerState;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static io.xeros.content.minigames.raids.Raids.*;
+import static io.Odyssey.content.minigames.raids.Raids.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RaidsTest {

@@ -1,6 +1,6 @@
 package db.migration;
 
-import io.xeros.sql.voterecord.VoteRecordTable;
+import io.Odyssey.sql.voterecord.VoteRecordTable;
 import org.flywaydb.core.api.migration.BaseJavaMigration;
 import org.flywaydb.core.api.migration.Context;
 

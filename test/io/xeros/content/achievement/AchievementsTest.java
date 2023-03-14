@@ -1,10 +1,10 @@
-package io.xeros.content.achievement;
+package io.Odyssey.content.achievement;
 
-import io.xeros.ServerState;
-import io.xeros.model.entity.player.Player;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
-import io.xeros.util.Misc;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
+import io.Odyssey.util.Misc;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

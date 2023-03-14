@@ -1,9 +1,9 @@
-package io.xeros.test;
+package io.Odyssey.test;
 
-import io.xeros.Server;
-import io.xeros.ServerConfiguration;
-import io.xeros.ServerState;
-import io.xeros.model.entity.player.Player;
+import io.Odyssey.Server;
+import io.Odyssey.ServerConfiguration;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.entity.player.Player;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.io.IOException;

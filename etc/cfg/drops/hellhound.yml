@@ -48,7 +48,7 @@ rare:
     minimum: 20
     maximum: 50
 very_rare:
-  accessibility: 15200
+  accessibility: 7500
   items:
   - name: "smouldering stone"
     minimum: 1

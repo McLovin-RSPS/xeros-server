@@ -1,7 +1,7 @@
 package db.migration;
 
-import io.xeros.model.entity.player.save.PlayerSave;
-import io.xeros.util.Misc;
+import io.Odyssey.model.entity.player.save.PlayerSave;
+import io.Odyssey.util.Misc;
 import org.flywaydb.core.api.migration.BaseJavaMigration;
 import org.flywaydb.core.api.migration.Context;
 

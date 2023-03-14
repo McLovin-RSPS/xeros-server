@@ -8,7 +8,7 @@ constant:
   items:
   - name: "crystal shard 3"
     minimum: 5
-    maximum: 15
+    maximum: 25
 common:
   accessibility: 4
   items:

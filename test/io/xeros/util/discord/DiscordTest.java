@@ -1,7 +1,8 @@
-package io.xeros.util.discord;
+package io.Odyssey.util.discord;
 
-import io.xeros.ServerState;
-import io.xeros.test.ServerTest;
+import io.Odyssey.ServerState;
+import io.Odyssey.net.discord.DiscordMessager;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.Test;
 
 class DiscordTest {
@@ -10,7 +11,7 @@ class DiscordTest {
 
     @Test
     public void sendDiscordTestMessages() throws InterruptedException {
-        Discord.writeServerSyncMessage("test");
+        DiscordMessager.sendLogs("test");
         Discord.writeBugMessage("Test");
         Discord.writeCheatEngineMessage("test");
         Discord.writeFoeMessage("Test");

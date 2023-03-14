@@ -1,7 +1,7 @@
-package io.xeros.content.itemskeptondeath;
+package io.Odyssey.content.itemskeptondeath;
 
-import io.xeros.model.entity.player.Player;
-import io.xeros.model.items.GameItem;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.model.items.GameItem;
 
 import java.util.List;
 import java.util.Set;

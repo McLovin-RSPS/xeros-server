@@ -1,14 +1,14 @@
-package io.xeros.model.items;
+package io.Odyssey.model.items;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import io.xeros.Server;
-import io.xeros.model.Items;
-import io.xeros.model.definitions.ItemDef;
-import io.xeros.model.entity.player.Player;
-import io.xeros.model.items.bank.BankTab;
+import io.Odyssey.Server;
+import io.Odyssey.model.Items;
+import io.Odyssey.model.definitions.ItemDef;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.model.items.bank.BankTab;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

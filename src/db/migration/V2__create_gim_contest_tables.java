@@ -1,7 +1,7 @@
 package db.migration;
 
-import io.xeros.sql.gim.GimContestPlayerTable;
-import io.xeros.sql.gim.GimContestTotalTable;
+import io.Odyssey.sql.gim.GimContestPlayerTable;
+import io.Odyssey.sql.gim.GimContestTotalTable;
 import org.flywaydb.core.api.migration.BaseJavaMigration;
 import org.flywaydb.core.api.migration.Context;
 

@@ -79,7 +79,7 @@ rare:
     maximum: 1
 
 very_rare:
-  accessibility: 175
+  accessibility: 60
   items:
   - item: 4185
     maximum: 3

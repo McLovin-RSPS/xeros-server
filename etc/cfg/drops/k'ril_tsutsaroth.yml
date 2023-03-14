@@ -49,7 +49,7 @@ uncommon:
     minimum: 1
     maximum: 1
 rare:
-  accessibility: 65
+  accessibility: 49
   items:
   - name: "godsword shard 1"
     minimum: 1
@@ -64,7 +64,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 75
+  accessibility: 60
   items:
   - name: "zamorak hilt"
     minimum: 1

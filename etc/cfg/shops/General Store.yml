@@ -2,7 +2,6 @@
 id: 2
 name: "General Store"
 items:
-- name: "teleport to house"
 - name: "eye of newt noted"
 - name: "bones noted"
 - name: "enchanted gem"
@@ -33,3 +32,6 @@ items:
 - name: "ecumenical key"
 - name: "strip of cloth"
 - name: "elemental shield"
+- id: "12017"
+- id: "10588"
+- id: "12018"

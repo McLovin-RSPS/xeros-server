@@ -28083,6 +28083,7 @@
   }
 },
 {
+
   "id": 2056,
   "attackSpeed": 4,
   "attackStyle": "Magic",
@@ -104787,6 +104788,40 @@
   }
 },
 {
+  "id": 11278,
+  "attackSpeed": 4,
+  "attackStyle": "NONE",
+  "aggressive": true,
+  "isPoisonous": false,
+  "isImmuneToPoison": true,
+  "isImmuneToVenom": true,
+  "isImmuneToCannons": true,
+  "isImmuneToThralls": false,
+  "levels": {
+    "MAGIC": 150,
+    "ATTACK": 150,
+    "DEFENCE": 100,
+    "RANGE": 100,
+    "STRENGTH": 150,
+    "HITPOINTS": 3200
+  },
+  "attackBonuses": {
+    "ATTACK_MAGIC_BONUS": 220,
+    "ATTACK_BONUS": 220,
+    "STRENGTH_BONUS": 274,
+    "MAGIC_STRENGTH_BONUS": 162,
+    "ATTACK_RANGE_BONUS": 220,
+    "RANGE_STRENGTH_BONUS": 162
+  },
+  "defensiveBonuses": {
+    "SLASH_BONUS": 180,
+    "STAB_BONUS": 120,
+    "RANGE_BONUS": 600,
+    "MAGIC_BONUS": 600,
+    "CRUSH_BONUS": 40
+  }
+},
+  {
   "id": 9417,
   "attackSpeed": 6,
   "attackStyle": "NONE",
@@ -106041,6 +106076,3031 @@
       "STAB_BONUS": 50,
       "RANGE_BONUS": 50,
       "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": 11294,
+    "attackSpeed": 4,
+    "attackStyle": "Stab",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 1,
+      "ATTACK": 300,
+      "DEFENCE": 240,
+      "RANGE": 1,
+      "STRENGTH": 260,
+      "HITPOINTS": 400
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 0,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 50,
+      "STAB_BONUS": 50,
+      "RANGE_BONUS": 50,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": 11283,
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 90,
+      "ATTACK": 130,
+      "DEFENCE": 100,
+      "RANGE": 1,
+      "STRENGTH": 100,
+      "HITPOINTS": 115
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 33,
+      "STRENGTH_BONUS": 31,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 90,
+      "ATTACK": 130,
+      "DEFENCE": 100,
+      "RANGE": 1,
+      "STRENGTH": 100,
+      "HITPOINTS": 115
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 33,
+      "STRENGTH_BONUS": 31,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": 11285,
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 90,
+      "ATTACK": 130,
+      "DEFENCE": 100,
+      "RANGE": 1,
+      "STRENGTH": 100,
+      "HITPOINTS": 115
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 33,
+      "STRENGTH_BONUS": 31,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": 11286,
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 90,
+      "ATTACK": 130,
+      "DEFENCE": 100,
+      "RANGE": 1,
+      "STRENGTH": 100,
+      "HITPOINTS": 115
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 33,
+      "STRENGTH_BONUS": 31,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": 11280,
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 90,
+      "ATTACK": 130,
+      "DEFENCE": 100,
+      "RANGE": 1,
+      "STRENGTH": 100,
+      "HITPOINTS": 115
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 33,
+      "STRENGTH_BONUS": 31,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": 11299,
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 1,
+      "ATTACK": 300,
+      "DEFENCE": 240,
+      "RANGE": 1,
+      "STRENGTH": 260,
+      "HITPOINTS": 2400
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 0,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 50,
+      "STAB_BONUS": 50,
+      "RANGE_BONUS": 50,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": 10520,
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 500,
+      "ATTACK": 500,
+      "DEFENCE": 500,
+      "RANGE": 500,
+      "STRENGTH": 1000,
+      "HITPOINTS": 10000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 500,
+      "ATTACK_BONUS": 500,
+      "STRENGTH_BONUS": 500,
+      "MAGIC_STRENGTH_BONUS": 500,
+      "ATTACK_RANGE_BONUS": 500,
+      "RANGE_STRENGTH_BONUS": 500
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 250,
+      "STAB_BONUS": 250,
+      "RANGE_BONUS": 250,
+      "MAGIC_BONUS": 250,
+      "CRUSH_BONUS": 250
+    }
+  },
+  {
+    "id": 11500,
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 100,
+      "RANGE": 100,
+      "STRENGTH": 100,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 100,
+      "ATTACK_BONUS": 100,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 100,
+      "ATTACK_RANGE_BONUS": 100,
+      "RANGE_STRENGTH_BONUS": 100
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": 11308,
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 100,
+      "RANGE": 100,
+      "STRENGTH": 100,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 100,
+      "ATTACK_BONUS": 100,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 100,
+      "ATTACK_RANGE_BONUS": 100,
+      "RANGE_STRENGTH_BONUS": 100
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": 11307,
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 500,
+      "DEFENCE": 100,
+      "RANGE": 100,
+      "STRENGTH": 500,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 100,
+      "ATTACK_BONUS": 900,
+      "STRENGTH_BONUS": 750,
+      "MAGIC_STRENGTH_BONUS": 100,
+      "ATTACK_RANGE_BONUS": 100,
+      "RANGE_STRENGTH_BONUS": 100
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": 11325,
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 500,
+      "DEFENCE": 100,
+      "RANGE": 100,
+      "STRENGTH": 500,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 100,
+      "ATTACK_BONUS": 900,
+      "STRENGTH_BONUS": 750,
+      "MAGIC_STRENGTH_BONUS": 100,
+      "ATTACK_RANGE_BONUS": 100,
+      "RANGE_STRENGTH_BONUS": 100
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": 11777,
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11789",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11790",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11791",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11792",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11793",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11794",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11795",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11796",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11797",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11798",
+    "attackSpeed": 6,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 100,
+      "DEFENCE": 80,
+      "RANGE": 100,
+      "STRENGTH": 140,
+      "HITPOINTS": 537
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 115,
+      "ATTACK_BONUS": 115,
+      "STRENGTH_BONUS": 30,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 115,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11775",
+    "attackSpeed": 6,
+    "attackStyle": "MELEE,RANGED",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 150,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 160,
+      "HITPOINTS": 380
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11778",
+    "attackSpeed": 6,
+    "attackStyle": "MELEE,RANGED",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 150,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 160,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11779",
+    "attackSpeed": 6,
+    "attackStyle": "MELEE,RANGED",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 150,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 160,
+      "HITPOINTS": 380
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11780",
+    "attackSpeed": 6,
+    "attackStyle": "MELEE,RANGED",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 150,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 160,
+      "HITPOINTS": 380
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 0,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 0,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11719",
+    "attackSpeed": 6,
+    "attackStyle": "MAGIC",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 125,
+      "ATTACK": 0,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 0,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 125,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 50,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11720",
+    "attackSpeed": 6,
+    "attackStyle": "MAGIC",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 125,
+      "ATTACK": 0,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 0,
+      "HITPOINTS": 150
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 125,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 50,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11721",
+    "attackSpeed": 6,
+    "attackStyle": "MAGIC",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 125,
+      "ATTACK": 0,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 0,
+      "HITPOINTS": 150
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 125,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 50,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11722",
+    "attackSpeed": 6,
+    "attackStyle": "MAGIC",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 125,
+      "ATTACK": 0,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 0,
+      "HITPOINTS": 150
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 125,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 50,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11776",
+    "attackSpeed": 6,
+    "attackStyle": "MAGIC",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 125,
+      "ATTACK": 0,
+      "DEFENCE": 80,
+      "RANGE": 0,
+      "STRENGTH": 0,
+      "HITPOINTS": 150
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 125,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 26,
+      "MAGIC_STRENGTH_BONUS": 50,
+      "ATTACK_RANGE_BONUS": 0,
+      "RANGE_STRENGTH_BONUS": 0
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11730",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11731",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11732",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11733",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11734",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11774",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11652",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 100,
+      "ATTACK": 250,
+      "DEFENCE": 70,
+      "RANGE": 120,
+      "STRENGTH": 140,
+      "HITPOINTS": 540
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 220,
+      "ATTACK_BONUS": 160,
+      "STRENGTH_BONUS": 100,
+      "MAGIC_STRENGTH_BONUS": 30,
+      "ATTACK_RANGE_BONUS": 220,
+      "RANGE_STRENGTH_BONUS": 16
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11747",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11749",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11756",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11757",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11758",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11760",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11762",
+    "attackSpeed": 7,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11764",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 10,
+      "MAGIC_STRENGTH_BONUS": 10,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11746",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11748",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11753",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11754",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11755",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11759",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11761",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11763",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11813",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11814",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11704",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": false,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 1500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11654",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 150,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 800
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 100,
+      "STAB_BONUS": 100,
+      "RANGE_BONUS": 100,
+      "MAGIC_BONUS": 100,
+      "CRUSH_BONUS": 100
+    }
+  },
+  {
+    "id": "11783",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 0,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 20
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": "11655",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 150,
+      "ATTACK": 150,
+      "DEFENCE": 0,
+      "RANGE": 150,
+      "STRENGTH": 150,
+      "HITPOINTS": 50
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 300,
+      "ATTACK_BONUS": 0,
+      "STRENGTH_BONUS": 40,
+      "MAGIC_STRENGTH_BONUS": 40,
+      "ATTACK_RANGE_BONUS": 300,
+      "RANGE_STRENGTH_BONUS": 40
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 0,
+      "STAB_BONUS": 0,
+      "RANGE_BONUS": 0,
+      "MAGIC_BONUS": 0,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": "11246",
+    "attackSpeed": 4,
+    "attackStyle": "RANGE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 800,
+      "ATTACK": 800,
+      "DEFENCE": 800,
+      "RANGE": 800,
+      "STRENGTH": 800,
+      "HITPOINTS": 10000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 800,
+      "ATTACK_BONUS": 800,
+      "STRENGTH_BONUS": 800,
+      "MAGIC_STRENGTH_BONUS": 800,
+      "ATTACK_RANGE_BONUS": 800,
+      "RANGE_STRENGTH_BONUS": 800
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 800,
+      "STAB_BONUS": 800,
+      "RANGE_BONUS": 25,
+      "MAGIC_BONUS": 800,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": "10402",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 800,
+      "ATTACK": 800,
+      "DEFENCE": 800,
+      "RANGE": 800,
+      "STRENGTH": 800,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 800,
+      "ATTACK_BONUS": 800,
+      "STRENGTH_BONUS": 800,
+      "MAGIC_STRENGTH_BONUS": 800,
+      "ATTACK_RANGE_BONUS": 800,
+      "RANGE_STRENGTH_BONUS": 800
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 800,
+      "STAB_BONUS": 800,
+      "RANGE_BONUS": 25,
+      "MAGIC_BONUS": 800,
+      "CRUSH_BONUS": 0
+    }
+  },
+  {
+    "id": "11709",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11710",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11711",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11712",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11713",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11714",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11715",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11716",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11717",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11718",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 100
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11751",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11815",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11814",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11401",
+    "attackSpeed": 4,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11814",
+    "attackSpeed": 4,
+    "attackStyle": "MELEE",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": true,
+    "isImmuneToVenom": true,
+    "isImmuneToCannons": true,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11363",
+    "attackSpeed": 8,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11362",
+    "attackSpeed": 10,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11354",
+    "attackSpeed": 10,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11353",
+    "attackSpeed": 8,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11346",
+    "attackSpeed": 8,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11347",
+    "attackSpeed": 8,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 200,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 200,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11345",
+    "attackSpeed": 12,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 5000,
+      "ATTACK": 200,
+      "DEFENCE": 200,
+      "RANGE": 200,
+      "STRENGTH": 200,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 200,
+      "ATTACK_BONUS": 200,
+      "STRENGTH_BONUS": 200,
+      "MAGIC_STRENGTH_BONUS": 5000,
+      "ATTACK_RANGE_BONUS": 200,
+      "RANGE_STRENGTH_BONUS": 200
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 200,
+      "STAB_BONUS": 200,
+      "RANGE_BONUS": 200,
+      "MAGIC_BONUS": 5000,
+      "CRUSH_BONUS": 200
+    }
+  },
+  {
+    "id": "11993",
+    "attackSpeed": 9,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 600,
+      "ATTACK": 600,
+      "DEFENCE": 600,
+      "RANGE": 600,
+      "STRENGTH": 600,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 600,
+      "ATTACK_BONUS": 600,
+      "STRENGTH_BONUS": 600,
+      "MAGIC_STRENGTH_BONUS": 600,
+      "ATTACK_RANGE_BONUS": 600,
+      "RANGE_STRENGTH_BONUS": 600
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 1500,
+      "STAB_BONUS": 1500,
+      "RANGE_BONUS": 1500,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": "11994",
+    "attackSpeed": 9,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 600,
+      "ATTACK": 600,
+      "DEFENCE": 600,
+      "RANGE": 600,
+      "STRENGTH": 600,
+      "HITPOINTS": 1000
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 600,
+      "ATTACK_BONUS": 600,
+      "STRENGTH_BONUS": 600,
+      "MAGIC_STRENGTH_BONUS": 600,
+      "ATTACK_RANGE_BONUS": 600,
+      "RANGE_STRENGTH_BONUS": 600
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 1500,
+      "STAB_BONUS": 1500,
+      "RANGE_BONUS": 1500,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": "12107",
+    "attackSpeed": 8,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 600,
+      "ATTACK": 600,
+      "DEFENCE": 600,
+      "RANGE": 600,
+      "STRENGTH": 600,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 600,
+      "ATTACK_BONUS": 600,
+      "STRENGTH_BONUS": 600,
+      "MAGIC_STRENGTH_BONUS": 600,
+      "ATTACK_RANGE_BONUS": 600,
+      "RANGE_STRENGTH_BONUS": 600
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 1500,
+      "STAB_BONUS": 1500,
+      "RANGE_BONUS": 1500,
+      "MAGIC_BONUS": 200,
+      "CRUSH_BONUS": 50
+    }
+  },
+  {
+    "id": "12108",
+    "attackSpeed": 9,
+    "attackStyle": "SPECIAL",
+    "aggressive": true,
+    "isPoisonous": false,
+    "isImmuneToPoison": false,
+    "isImmuneToVenom": false,
+    "isImmuneToCannons": false,
+    "isImmuneToThralls": false,
+    "levels": {
+      "MAGIC": 600,
+      "ATTACK": 600,
+      "DEFENCE": 600,
+      "RANGE": 600,
+      "STRENGTH": 600,
+      "HITPOINTS": 500
+    },
+    "attackBonuses": {
+      "ATTACK_MAGIC_BONUS": 600,
+      "ATTACK_BONUS": 600,
+      "STRENGTH_BONUS": 600,
+      "MAGIC_STRENGTH_BONUS": 600,
+      "ATTACK_RANGE_BONUS": 600,
+      "RANGE_STRENGTH_BONUS": 600
+    },
+    "defensiveBonuses": {
+      "SLASH_BONUS": 1500,
+      "STAB_BONUS": 1500,
+      "RANGE_BONUS": 1500,
+      "MAGIC_BONUS": 200,
       "CRUSH_BONUS": 50
     }
   }]

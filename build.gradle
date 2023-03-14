@@ -3,9 +3,11 @@ plugins {
     id 'war'
     id 'application'
     id "org.jetbrains.kotlin.jvm" version "1.5.21"
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
 }
 
-mainClassName = "io.xeros.Server"
+mainClassName = "io.Odyssey.Server"
+
 
 repositories {
     mavenCentral()
@@ -93,5 +95,14 @@ distZip {
         from '.'
         into project.name + '/bin/'
         include 'etc/'
+    }
+}
+
+shadowJar {
+    classifier = null
+    baseName = project.name
+    version = null
+    manifest {
+        attributes 'Main-Class': mainClassName
     }
 }

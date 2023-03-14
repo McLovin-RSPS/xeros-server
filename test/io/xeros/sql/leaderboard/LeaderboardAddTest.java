@@ -1,10 +1,10 @@
-package io.xeros.sql.leaderboard;
+package io.Odyssey.sql.leaderboard;
 
-import io.xeros.Server;
-import io.xeros.ServerState;
-import io.xeros.content.leaderboards.LeaderboardEntry;
-import io.xeros.content.leaderboards.LeaderboardType;
-import io.xeros.test.ServerTest;
+import io.Odyssey.Server;
+import io.Odyssey.ServerState;
+import io.Odyssey.content.leaderboards.LeaderboardEntry;
+import io.Odyssey.content.leaderboards.LeaderboardType;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.Test;
 
 import java.sql.ResultSet;

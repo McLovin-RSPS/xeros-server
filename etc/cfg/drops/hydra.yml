@@ -3,9 +3,9 @@ npc_id: 8609
 constant:
   accessibility: 0
   items:
-  - name: "hydra bones"
+  - name: "hydra bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 5
 common:
   accessibility: 1
   items:

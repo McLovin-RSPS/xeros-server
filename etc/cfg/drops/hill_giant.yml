@@ -3,9 +3,9 @@ npc_id: 2098
 constant:
   accessibility: 0
   items:
-  - name: "big bones"
+  - name: "big bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 5
 common:
   accessibility: 1
   items:

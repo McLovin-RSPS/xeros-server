@@ -1,4 +1,4 @@
-package io.xeros.model.multiplayersession.flowerpoker;
+package io.Odyssey.model.multiplayersession.flowerpoker;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static io.xeros.model.multiplayersession.flowerpoker.FlowerPokerHand.getWinner;
+import static io.Odyssey.model.multiplayersession.flowerpoker.FlowerPokerHand.getWinner;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FlowerPokerHandTest {

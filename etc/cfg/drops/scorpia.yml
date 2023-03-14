@@ -55,7 +55,7 @@ rare:
     maximum: 3
     minimum: 2
 very_rare:
-  accessibility: 150
+  accessibility: 90
   items:
   - name: "odium ward"
     minimum: 1

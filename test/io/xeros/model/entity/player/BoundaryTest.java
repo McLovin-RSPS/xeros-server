@@ -1,4 +1,4 @@
-package io.xeros.model.entity.player;
+package io.Odyssey.model.entity.player;
 
 import org.junit.jupiter.api.Test;
 

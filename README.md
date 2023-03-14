@@ -1,4 +1,4 @@
-# Xeros #
+# Odyssey #
 Based on Ascend.
 
 ## Setup

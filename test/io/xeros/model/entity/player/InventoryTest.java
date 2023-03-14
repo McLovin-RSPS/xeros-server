@@ -1,11 +1,11 @@
-package io.xeros.model.entity.player;
+package io.Odyssey.model.entity.player;
 
-import io.xeros.ServerState;
-import io.xeros.model.Items;
-import io.xeros.model.items.GameItem;
-import io.xeros.model.items.ItemAssistant;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.Items;
+import io.Odyssey.model.items.GameItem;
+import io.Odyssey.model.items.ItemAssistant;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

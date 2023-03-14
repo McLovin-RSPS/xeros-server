@@ -3,12 +3,12 @@ npc_id: 8028
 constant:
   accessibility: 0
   items:
-  - name: "superior dragon bones"
+  - name: "superior dragon bones noted"
     minimum: 1
-    maximum: 1
-  - name: "blue dragonhide"
-    minimum: 1
-    maximum: 1
+    maximum: 5
+  - name: "blue dragonhide noted"
+    minimum: 2
+    maximum: 5
 common:
   accessibility: 1
   items:
@@ -148,7 +148,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 1250
+  accessibility: 300
   items:
   - name: "draconic visage"
     minimum: 1

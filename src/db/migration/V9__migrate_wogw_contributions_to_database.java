@@ -1,8 +1,8 @@
 package db.migration;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import io.xeros.Server;
-import io.xeros.util.JsonUtil;
+import io.Odyssey.Server;
+import io.Odyssey.util.JsonUtil;
 import org.flywaydb.core.api.migration.BaseJavaMigration;
 import org.flywaydb.core.api.migration.Context;
 

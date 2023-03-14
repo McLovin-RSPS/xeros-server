@@ -76,13 +76,13 @@ uncommon:
     minimum: 1
     maximum: 3
 rare:
-  accessibility: 1000
+  accessibility: 200
   items:
   - name: "dust battlestaff"
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 2000
+  accessibility: 190
   items:
   - name: "dragon chainbody"
     minimum: 1

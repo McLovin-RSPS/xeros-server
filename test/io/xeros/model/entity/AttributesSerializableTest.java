@@ -1,4 +1,4 @@
-package io.xeros.model.entity;
+package io.Odyssey.model.entity;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 import com.google.gson.reflect.TypeToken;
-import io.xeros.model.AttributesSerializable;
+import io.Odyssey.model.AttributesSerializable;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

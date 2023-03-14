@@ -79,7 +79,7 @@ uncommon:
     minimum: 1
     maximum: 1
 rare:
-  accessibility: 600
+  accessibility: 150
   items:
   - name: "spectral sigil"
     minimum: 1
@@ -88,7 +88,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 2000
+  accessibility: 650
   items:
   - name: "elysian sigil"
     minimum: 1

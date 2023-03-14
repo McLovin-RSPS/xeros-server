@@ -1,6 +1,6 @@
-package io.xeros.net.login;
+package io.Odyssey.net.login;
 
-import io.xeros.Configuration;
+import io.Odyssey.Configuration;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

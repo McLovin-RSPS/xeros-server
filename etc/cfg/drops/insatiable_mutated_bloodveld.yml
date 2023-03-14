@@ -9,9 +9,21 @@ rare:
   - name: "dust battlestaff"
     minimum: 1
     maximum: 1
+  - name: "blood rune"
+    minimum: 100
+    maximum: 500
+  - name: "death rune"
+    minimum: 100
+    maximum: 500
+  - item: 12750
+    minimum: 1
+    maximum: 1
 very_rare:
-  accessibility: 80
+  accessibility: 500
   items:
   - name: "imbued heart"
+    minimum: 1
+    maximum: 1
+  - item: 12756
     minimum: 1
     maximum: 1

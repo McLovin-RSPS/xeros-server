@@ -1,15 +1,15 @@
-package io.xeros.sql.outlast;
+package io.Odyssey.sql.outlast;
 
 import com.google.common.collect.Lists;
-import io.xeros.Server;
-import io.xeros.ServerState;
-import io.xeros.content.tournaments.OutlastLeaderboardType;
-import io.xeros.content.tournaments.OutlastRecentWinner;
-import io.xeros.content.tournaments.OutlastLeaderboardEntry;
-import io.xeros.sql.SqlQuery;
-import io.xeros.sql.displayname.RemoveDisplayNameSqlQuery;
-import io.xeros.sql.displayname.SetDisplayNameSqlQuery;
-import io.xeros.test.ServerTest;
+import io.Odyssey.Server;
+import io.Odyssey.ServerState;
+import io.Odyssey.content.tournaments.OutlastLeaderboardType;
+import io.Odyssey.content.tournaments.OutlastRecentWinner;
+import io.Odyssey.content.tournaments.OutlastLeaderboardEntry;
+import io.Odyssey.sql.SqlQuery;
+import io.Odyssey.sql.displayname.RemoveDisplayNameSqlQuery;
+import io.Odyssey.sql.displayname.SetDisplayNameSqlQuery;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.*;
 
 import java.time.LocalDateTime;

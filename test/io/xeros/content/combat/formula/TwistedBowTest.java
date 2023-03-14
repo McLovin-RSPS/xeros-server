@@ -1,4 +1,4 @@
-package io.xeros.content.combat.formula;
+package io.Odyssey.content.combat.formula;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,9 @@ class TwistedBowTest {
             System.out.println("Magic level " + accuracyTestValues[index] + ": "
                     + "Accuracy: " + RangeMaxHit.getTwistedBowAccuracyBoost(accuracyTestValues[index]) + ", "
                     + "Damage: " + RangeMaxHit.getTwistedBowDamageBoost(accuracyTestValues[index], false) + ", "
-                    + "Damage-cox: " + RangeMaxHit.getTwistedBowDamageBoost(accuracyTestValues[index], true));
+                    + "Damage-cox: " + RangeMaxHit.getTwistedBowDamageBoost(accuracyTestValues[index], true)
+                    + "Damage: " + RangeMaxHit.getTwistedBowLDamageBoost(accuracyTestValues[index], false) + ", "
+                    + "Damage-cox: " + RangeMaxHit.getTwistedBowPDamageBoost(accuracyTestValues[index], true));
         }
         assert true;
     }

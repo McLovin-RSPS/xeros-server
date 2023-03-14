@@ -58,7 +58,7 @@ uncommon:
     minimum: 75
     maximum: 100
 rare:
-  accessibility: 100
+  accessibility: 50
   items:
   - name: "dragon pickaxe"
     minimum: 1
@@ -70,7 +70,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 75
+  accessibility: 40
   items:
   - item: 4185
     maximum: 3

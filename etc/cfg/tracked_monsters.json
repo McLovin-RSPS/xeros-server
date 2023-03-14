@@ -297,5 +297,13 @@
   {
     "name": "bryophyata",
     "trackKillTime": true
+  },
+  {
+    "name": "nex",
+    "trackKillTime": true
+  },
+  {
+    "name": "nex angel of death",
+    "trackKillTime": true
   }
 ]

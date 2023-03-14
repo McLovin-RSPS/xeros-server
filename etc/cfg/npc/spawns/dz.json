@@ -2,10 +2,10 @@
   {
     "id": 4753,
     "position": {
-      "x": 3815,
-      "y": 2847,
+      "x": 3831,
+      "y": 2875,
       "height": 0
     },
-    "walkingType": "FACE_SOUTH"
+    "walkingType": "FACE_WEST"
   }
 ]

@@ -1,4 +1,4 @@
-package io.xeros.sql;
+package io.Odyssey.sql;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -7,9 +7,9 @@ import java.sql.Statement;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import io.xeros.Server;
-import io.xeros.ServerState;
-import io.xeros.test.ServerTest;
+import io.Odyssey.Server;
+import io.Odyssey.ServerState;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

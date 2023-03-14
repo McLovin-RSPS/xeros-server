@@ -3,9 +3,9 @@ npc_id: 6593
 constant:
   accessibility: 0
   items:
-  - name: "lava dragon bones"
+  - name: "lava dragon bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 2
   - name: "lava scale"
     minimum: 2
     maximum: 2

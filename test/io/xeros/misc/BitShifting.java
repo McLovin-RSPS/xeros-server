@@ -1,10 +1,10 @@
-package io.xeros.misc;
+package io.Odyssey.misc;
 
-import io.xeros.content.combat.formula.rework.RangeCombatFormula;
-import io.xeros.model.collisionmap.Region;
-import io.xeros.model.collisionmap.RegionProvider;
-import io.xeros.model.entity.player.Position;
-import io.xeros.util.XORShiftRandom;
+import io.Odyssey.content.combat.formula.rework.RangeCombatFormula;
+import io.Odyssey.model.collisionmap.Region;
+import io.Odyssey.model.collisionmap.RegionProvider;
+import io.Odyssey.model.entity.player.Position;
+import io.Odyssey.util.XORShiftRandom;
 import org.apache.commons.codec.binary.Hex;
 
 /**

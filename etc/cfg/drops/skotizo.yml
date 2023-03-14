@@ -70,7 +70,7 @@ uncommon:
     minimum: 1000000
     maximum: 10000000
 rare:
-  accessibility: 100
+  accessibility: 30
   items:
   - name: "dark claw"
     minimum: 1

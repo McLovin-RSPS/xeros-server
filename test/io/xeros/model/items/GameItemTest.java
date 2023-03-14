@@ -1,9 +1,9 @@
-package io.xeros.model.items;
+package io.Odyssey.model.items;
 
 import com.google.common.collect.Lists;
-import io.xeros.ServerState;
-import io.xeros.model.Items;
-import io.xeros.test.ServerTest;
+import io.Odyssey.ServerState;
+import io.Odyssey.model.Items;
+import io.Odyssey.test.ServerTest;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

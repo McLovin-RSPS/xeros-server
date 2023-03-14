@@ -1,6 +1,6 @@
-package io.xeros.test;
+package io.Odyssey.test;
 
-import io.xeros.model.entity.player.Player;
+import io.Odyssey.model.entity.player.Player;
 import lombok.Builder;
 import lombok.Data;
 

@@ -1,12 +1,12 @@
-package io.xeros.sql.donation.query;
+package io.Odyssey.sql.donation.query;
 
-import io.xeros.*;
-import io.xeros.model.entity.player.Player;
-import io.xeros.sql.SqlQuery;
-import io.xeros.sql.donation.model.DonationItem;
-import io.xeros.sql.donation.model.DonationItemList;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
+import io.Odyssey.*;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.sql.SqlQuery;
+import io.Odyssey.sql.donation.model.DonationItem;
+import io.Odyssey.sql.donation.model.DonationItemList;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

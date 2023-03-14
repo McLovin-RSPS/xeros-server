@@ -1,24 +1,690 @@
-Sep 13, 2022 2:32:01 AM io.xeros.content.boosts.Boosts init
+[2022-09-13T00:00:09.8985041] [2022-09-13T00:00:09.8832003] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 12:00:12 AM io.Odyssey.content.boosts.Boosts init
 INFO: Loaded 17 boosts.
-Sep 13, 2022 2:32:01 AM io.xeros.model.definitions.ItemDef load
-INFO: Loaded 14047 item definitions.
-Sep 13, 2022 2:32:02 AM io.xeros.model.definitions.NpcStats load
-INFO: Loaded 2906 npc stats.
-Sep 13, 2022 2:32:02 AM io.xeros.model.definitions.ItemStats load
-INFO: Loaded 9767 item stats.
-Sep 13, 2022 2:32:02 AM io.xeros.model.entity.npc.NPCRelationship setup
+Sep 13, 2022 12:00:12 AM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14183 item definitions.
+Sep 13, 2022 12:00:13 AM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 12:00:13 AM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9857 item stats.
+Sep 13, 2022 12:00:13 AM io.Odyssey.model.entity.npc.NPCRelationship setup
 INFO: Initialized 0 npc relationships.
-Sep 13, 2022 2:32:02 AM io.xeros.model.lobby.LobbyManager initializeLobbies
-INFO: Initialized 2 lobbies.
-Sep 13, 2022 2:32:28 AM io.xeros.model.collisionmap.Region load
-INFO: Loaded 52 custom maps.
-Sep 13, 2022 2:32:28 AM io.xeros.model.collisionmap.Region load
-INFO: Error loading map files: [1182, 1183, 3642, 3643, 3648, 3649]
-Sep 13, 2022 2:32:28 AM io.xeros.model.entity.npc.NpcSpawnLoader load
-INFO: Spawned 3217 npcs.
-Sep 13, 2022 2:32:29 AM io.xeros.content.commands.CommandManager initializeCommands
-INFO: Loaded 261 commands.
-Sep 13, 2022 2:32:29 AM io.xeros.content.dailyrewards.DailyRewardContainer load
+Sep 13, 2022 12:00:13 AM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T00:00:20.5613357] java.lang.NullPointerException
+[2022-09-13T00:00:20.5613357] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T00:00:20.5613357] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T00:00:20.5613357] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T00:00:20.5770512] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T00:00:20.5770512] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T00:00:20.5770512] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T00:00:20.5770512] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T00:00:20.5770512] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 12:00:20 AM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 12:00:20 AM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 12:00:20 AM io.Odyssey.content.dailyrewards.DailyRewardContainer load
 INFO: Selected daily rewards path with start date: 2021-07-01
-Sep 13, 2022 2:32:29 AM io.xeros.content.dailyrewards.DailyRewardsRecords load
-WARNING: No daily reward claims found.
+Sep 13, 2022 12:00:21 AM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T00:00:22.1590209] [2022-09-13T00:00:22.1590209] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T00:00:22.1590209] [2022-09-13T00:00:22.1590209] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T00:13:27.3888512] [2022-09-13T00:13:27.3888512] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 12:13:29 AM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 12:13:29 AM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14183 item definitions.
+Sep 13, 2022 12:13:30 AM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 12:13:30 AM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9857 item stats.
+Sep 13, 2022 12:13:30 AM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 12:13:30 AM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T00:13:35.9474289] java.lang.NullPointerException
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T00:13:35.9474289] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T00:13:35.9474289] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 12:13:35 AM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 12:13:36 AM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 12:13:36 AM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 12:13:36 AM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T00:13:37.244648] [2022-09-13T00:13:37.244648] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T00:13:37.244648] [2022-09-13T00:13:37.244648] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T02:55:35.2594937] java.lang.NullPointerException
+[2022-09-13T02:55:35.2594937] 	at io.Odyssey.model.cycleevent.impl.DidYouKnowEvent.execute(DidYouKnowEvent.java:44)
+[2022-09-13T02:55:35.2594937] 	at io.Odyssey.model.cycleevent.EventHandler.process(EventHandler.java:116)
+[2022-09-13T02:55:35.2594937] 	at io.Odyssey.GameThread.lambda$setTickables$8(GameThread.java:48)
+[2022-09-13T02:55:35.2594937] 	at io.Odyssey.GameThread.tick(GameThread.java:55)
+[2022-09-13T02:55:35.2594937] 	at io.Odyssey.GameThread.run(GameThread.java:88)
+[2022-09-13T11:50:07.713644] [2022-09-13T11:50:07.713644] giving loot to killvibe
+[2022-09-13T13:32:23.8232451] [2022-09-13T13:32:23.7920449] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 1:32:26 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 1:32:27 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14183 item definitions.
+Sep 13, 2022 1:32:28 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 1:32:28 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9857 item stats.
+Sep 13, 2022 1:32:28 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 1:32:28 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T13:32:43.1112543] java.lang.NullPointerException
+[2022-09-13T13:32:43.1112543] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T13:32:43.1112543] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T13:32:43.1112543] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T13:32:43.1112543] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T13:32:43.1112543] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T13:32:43.1309141] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T13:32:43.1309141] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T13:32:43.1309141] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 1:32:43 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 1:32:43 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 1:32:43 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 1:32:43 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T13:32:45.6827027] [2022-09-13T13:32:45.6827027] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T13:32:45.6827027] [2022-09-13T13:32:45.6827027] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T13:36:27.4586405] [2022-09-13T13:36:27.4429732] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 1:36:30 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 1:36:31 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14183 item definitions.
+Sep 13, 2022 1:36:31 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 1:36:31 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9857 item stats.
+Sep 13, 2022 1:36:32 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 1:36:32 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T13:36:39.893274] java.lang.NullPointerException
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T13:36:39.893274] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T13:36:39.893274] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 1:36:39 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 1:36:40 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 1:36:40 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 1:36:40 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T13:36:41.7995471] [2022-09-13T13:36:41.7995471] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T13:36:41.7995471] [2022-09-13T13:36:41.7995471] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T16:18:32.5322329] java.lang.NullPointerException
+[2022-09-13T16:18:32.5478566] 	at io.Odyssey.model.cycleevent.impl.DidYouKnowEvent.execute(DidYouKnowEvent.java:44)
+[2022-09-13T16:18:32.5478566] 	at io.Odyssey.model.cycleevent.EventHandler.process(EventHandler.java:116)
+[2022-09-13T16:18:32.5478566] 	at io.Odyssey.GameThread.lambda$setTickables$8(GameThread.java:48)
+[2022-09-13T16:18:32.5478566] 	at io.Odyssey.GameThread.tick(GameThread.java:55)
+[2022-09-13T16:18:32.5478566] 	at io.Odyssey.GameThread.run(GameThread.java:88)
+[2022-09-13T18:18:17.8855596] [2022-09-13T18:18:17.8855596] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:18:19 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+[2022-09-13T18:18:19.9816166] com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "26524,": not a valid Integer value
+ at [Source: (File); line: 49, column: 7] (through reference chain: java.util.ArrayList[10]->io.Odyssey.model.definitions.ItemDef["id"])
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1676)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:932)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer._parseInteger(NumberDeserializers.java:522)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:474)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:452)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+[2022-09-13T18:18:19.9816166] 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.util.JsonUtil.fromYaml(JsonUtil.java:128)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.model.definitions.ItemDef.load(ItemDef.java:31)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:81)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:18:19.9816166] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+[2022-09-13T18:21:14.596294] [2022-09-13T18:21:14.596294] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:21:16 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+[2022-09-13T18:21:16.7772296] com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "26524,": not a valid Integer value
+ at [Source: (File); line: 49, column: 7] (through reference chain: java.util.ArrayList[10]->io.Odyssey.model.definitions.ItemDef["id"])
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1676)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:932)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer._parseInteger(NumberDeserializers.java:522)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:474)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:452)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+[2022-09-13T18:21:16.7772296] 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+[2022-09-13T18:21:16.7772296] 	at io.Odyssey.util.JsonUtil.fromYaml(JsonUtil.java:128)
+[2022-09-13T18:21:16.7772296] 	at io.Odyssey.model.definitions.ItemDef.load(ItemDef.java:31)
+[2022-09-13T18:21:16.7772296] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:81)
+[2022-09-13T18:21:16.7772296] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:21:16.7772296] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:21:16.7929204] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+[2022-09-13T18:22:34.4960945] [2022-09-13T18:22:34.4960945] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:22:36 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+[2022-09-13T18:22:36.7616671] com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "26524,": not a valid Integer value
+ at [Source: (File); line: 49, column: 7] (through reference chain: java.util.ArrayList[10]->io.Odyssey.model.definitions.ItemDef["id"])
+[2022-09-13T18:22:36.7616671] 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1676)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:932)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer._parseInteger(NumberDeserializers.java:522)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:474)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:452)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+[2022-09-13T18:22:36.7772895] 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.util.JsonUtil.fromYaml(JsonUtil.java:128)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.model.definitions.ItemDef.load(ItemDef.java:31)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:81)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:22:36.7772895] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+[2022-09-13T18:27:31.9249616] [2022-09-13T18:27:31.9249616] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:27:33 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+[2022-09-13T18:27:33.9001488] com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "26524,": not a valid Integer value
+ at [Source: (File); line: 49, column: 7] (through reference chain: java.util.ArrayList[10]->io.Odyssey.model.definitions.ItemDef["id"])
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1676)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:932)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer._parseInteger(NumberDeserializers.java:522)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:474)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:452)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+[2022-09-13T18:27:33.9001488] 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.util.JsonUtil.fromYaml(JsonUtil.java:128)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.model.definitions.ItemDef.load(ItemDef.java:31)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:81)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:27:33.9001488] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+[2022-09-13T18:34:53.4946675] [2022-09-13T18:34:53.4946675] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:34:55 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+[2022-09-13T18:34:55.8227414] com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "26524,": not a valid Integer value
+ at [Source: (File); line: 49, column: 7] (through reference chain: java.util.ArrayList[10]->io.Odyssey.model.definitions.ItemDef["id"])
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1676)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:932)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer._parseInteger(NumberDeserializers.java:522)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:474)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$IntegerDeserializer.deserialize(NumberDeserializers.java:452)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+[2022-09-13T18:34:55.8227414] 	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.util.JsonUtil.fromYaml(JsonUtil.java:128)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.model.definitions.ItemDef.load(ItemDef.java:31)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:81)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:34:55.8227414] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+[2022-09-13T18:36:12.2716487] [2022-09-13T18:36:12.2716487] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:36:14 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 6:36:14 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 6:36:15 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 6:36:15 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 6:36:16 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 6:36:16 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T18:36:45.0526044] java.lang.NullPointerException
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T18:36:45.0526044] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:36:45.0526044] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 6:36:45 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 6:36:45 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 6:36:45 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 6:36:45 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T18:36:46.9413959] [2022-09-13T18:36:46.9403993] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T18:36:46.9413959] [2022-09-13T18:36:46.9413959] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T18:45:57.0716521] [2022-09-13T18:45:57.0636436] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:46:01 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 6:46:02 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 6:46:03 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 6:46:03 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 6:46:03 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 6:46:04 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T18:46:14.2481852] java.lang.NullPointerException
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T18:46:14.2481852] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:46:14.2481852] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 6:46:14 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 6:46:14 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 6:46:14 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 6:46:14 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T18:46:16.4390119] [2022-09-13T18:46:16.4216308] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T18:46:16.4685279] [2022-09-13T18:46:16.4685279] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T18:48:30.4556727] [2022-09-13T18:48:30.4556727] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:48:35 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 6:48:36 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 6:48:36 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 6:48:36 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 6:48:37 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 6:48:37 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T18:49:20.4351006] java.lang.NullPointerException
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T18:49:20.4351006] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:49:20.4351006] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 6:49:20 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 6:49:21 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 6:49:21 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 6:49:21 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T18:49:23.125065] [2022-09-13T18:49:23.125065] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T18:49:23.1875797] [2022-09-13T18:49:23.1875797] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T18:54:06.5055356] [2022-09-13T18:54:06.5055356] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 6:54:08 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 6:54:09 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 6:54:09 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 6:54:09 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 6:54:09 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 6:54:09 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T18:54:16.9008275] java.lang.NullPointerException
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T18:54:16.9008275] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T18:54:16.9008275] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 6:54:16 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 6:54:17 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 6:54:17 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 6:54:17 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T18:54:18.3070866] [2022-09-13T18:54:18.30609] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T18:54:18.3090832] [2022-09-13T18:54:18.3090832] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T19:23:42.6119081] [2022-09-13T19:23:42.6058244] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 7:23:44 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 7:23:45 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 7:23:45 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 7:23:45 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 7:23:46 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 7:23:46 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T19:23:52.8409822] java.lang.NullPointerException
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T19:23:52.8409822] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T19:23:52.8409822] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 7:23:52 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 7:23:53 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 7:23:53 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 7:23:53 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T19:23:54.2387961] [2022-09-13T19:23:54.2387961] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T19:23:54.2544167] [2022-09-13T19:23:54.2387961] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:12:29.5541706] [2022-09-13T20:12:29.538509] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:12:32 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:12:33 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:12:33 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:12:33 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:12:33 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:12:33 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:12:41.3504602] java.lang.NullPointerException
+[2022-09-13T20:12:41.3504602] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:12:41.3504602] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:12:41.3504602] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:12:41.3620188] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:12:41.3620188] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:12:41.3620188] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:12:41.3620188] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:12:41.3620188] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:12:41 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:12:41 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:12:41 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:12:41 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:12:43.1888207] [2022-09-13T20:12:43.1523599] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:12:43.1888207] [2022-09-13T20:12:43.1888207] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:17:49.5715666] [2022-09-13T20:17:49.5715666] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:17:51 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:17:52 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:17:52 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:17:52 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:17:52 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:17:53 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:17:59.7900765] java.lang.NullPointerException
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:17:59.7900765] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:17:59.7900765] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:17:59 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:18:00 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:18:00 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:18:00 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:18:01.7744081] [2022-09-13T20:18:01.7744081] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:18:01.7744081] [2022-09-13T20:18:01.7744081] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:23:40.4749875] [2022-09-13T20:23:40.4749875] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:23:42 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:23:43 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:23:44 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:23:44 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:23:44 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:23:44 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:23:52.5314707] java.lang.NullPointerException
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:23:52.5471394] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:23:52.5471394] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:23:52 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:23:53 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:23:53 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:23:53 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:23:54.5025695] [2022-09-13T20:23:54.5025695] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:23:54.5182425] [2022-09-13T20:23:54.5182425] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:31:49.7174712] [2022-09-13T20:31:49.7174712] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:31:51 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:31:52 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:31:52 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:31:52 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:31:53 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:31:53 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:31:59.5919387] java.lang.NullPointerException
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:31:59.5919387] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:31:59.5919387] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:31:59 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:32:00 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:32:00 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:32:00 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:32:01.9029273] [2022-09-13T20:32:01.8909303] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:32:01.9029273] [2022-09-13T20:32:01.9029273] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:41:41.8164331] [2022-09-13T20:41:41.8007244] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:41:43 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:41:44 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:41:44 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:41:44 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:41:45 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:41:45 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:41:51.97228] java.lang.NullPointerException
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:41:51.9808003] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:41:51.9808003] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:41:51 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:41:52 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:41:52 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:41:52 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:41:53.6753813] [2022-09-13T20:41:53.6753813] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:41:53.6753813] [2022-09-13T20:41:53.6753813] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T20:48:57.044833] [2022-09-13T20:48:57.044833] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 8:48:59 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 8:49:00 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 8:49:00 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 8:49:00 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 8:49:00 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 8:49:00 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T20:49:08.0085624] java.lang.NullPointerException
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T20:49:08.0085624] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T20:49:08.0085624] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 8:49:08 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 8:49:08 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 8:49:08 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 8:49:08 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T20:49:09.9009121] [2022-09-13T20:49:09.9009121] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T20:49:09.9009121] [2022-09-13T20:49:09.9009121] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T21:29:32.6615168] [2022-09-13T21:29:32.644793] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 9:29:36 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 9:29:37 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 9:29:37 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 9:29:37 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 9:29:38 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 9:29:38 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T21:29:45.6298703] java.lang.NullPointerException
+[2022-09-13T21:29:45.6298703] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T21:29:45.6298703] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T21:29:45.6458264] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 9:29:45 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 9:29:46 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 9:29:46 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 9:29:46 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T21:29:47.621007] [2022-09-13T21:29:47.6053353] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T21:29:47.621007] [2022-09-13T21:29:47.621007] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T21:45:01.26058] [2022-09-13T21:45:01.2449011] .\save_files\public\Odyssey_Compromised_Accounts.json does not exist!
+Sep 13, 2022 9:45:03 PM io.Odyssey.content.boosts.Boosts init
+INFO: Loaded 17 boosts.
+Sep 13, 2022 9:45:03 PM io.Odyssey.model.definitions.ItemDef load
+INFO: Loaded 14188 item definitions.
+Sep 13, 2022 9:45:04 PM io.Odyssey.model.definitions.NpcStats load
+INFO: Loaded 2968 npc stats.
+Sep 13, 2022 9:45:04 PM io.Odyssey.model.definitions.ItemStats load
+INFO: Loaded 9863 item stats.
+Sep 13, 2022 9:45:04 PM io.Odyssey.model.entity.npc.NPCRelationship setup
+INFO: Initialized 0 npc relationships.
+Sep 13, 2022 9:45:04 PM io.Odyssey.model.lobby.LobbyManager initializeLobbies
+INFO: Initialized 4 lobbies.
+[2022-09-13T21:45:11.380055] java.lang.NullPointerException
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.lambda$load$0(NpcSpawnLoader.java:35)
+[2022-09-13T21:45:11.380055] 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1508)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:34)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.model.entity.npc.NpcSpawnLoader.load(NpcSpawnLoader.java:26)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.ServerStartup.load(ServerStartup.java:118)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.Server.loadData(Server.java:143)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.Server.lambda$main$0(Server.java:176)
+[2022-09-13T21:45:11.380055] 	at io.Odyssey.GameThread.run(GameThread.java:84)
+Sep 13, 2022 9:45:11 PM io.Odyssey.model.entity.npc.NpcSpawnLoader load
+INFO: Spawned 3314 npcs.
+Sep 13, 2022 9:45:11 PM io.Odyssey.content.commands.CommandManager initializeCommands
+INFO: Loaded 268 commands.
+Sep 13, 2022 9:45:11 PM io.Odyssey.content.dailyrewards.DailyRewardContainer load
+INFO: Selected daily rewards path with start date: 2021-07-01
+Sep 13, 2022 9:45:11 PM io.Odyssey.content.dailyrewards.DailyRewardsRecords load
+INFO: Loaded data on 1 claimed daily rewards.
+[2022-09-13T21:45:12.8680837] [2022-09-13T21:45:12.8680837] log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+[2022-09-13T21:45:12.8680837] [2022-09-13T21:45:12.8680837] log4j:WARN Please initialize the log4j system properly.
+[2022-09-13T23:13:18.8293571] [2022-09-13T23:13:18.8293571] giving loot to killvibe
+[2022-09-13T23:18:45.9395297] [2022-09-13T23:18:45.9395297] giving loot to killvibe
+[2022-09-14T00:26:51.5261189] java.lang.NullPointerException
+[2022-09-14T00:26:51.5261189] 	at io.Odyssey.model.cycleevent.impl.DidYouKnowEvent.execute(DidYouKnowEvent.java:44)
+[2022-09-14T00:26:51.5261189] 	at io.Odyssey.model.cycleevent.EventHandler.process(EventHandler.java:116)
+[2022-09-14T00:26:51.5261189] 	at io.Odyssey.GameThread.lambda$setTickables$8(GameThread.java:48)
+[2022-09-14T00:26:51.5261189] 	at io.Odyssey.GameThread.tick(GameThread.java:55)
+[2022-09-14T00:26:51.5261189] 	at io.Odyssey.GameThread.run(GameThread.java:88)

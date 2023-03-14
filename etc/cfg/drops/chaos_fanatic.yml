@@ -58,7 +58,7 @@ uncommon:
     minimum: 4
     maximum: 15
 rare:
-  accessibility: 75
+  accessibility: 50
   items:
   - name: "ancient staff"
     minimum: 1
@@ -70,7 +70,7 @@ rare:
     minimum: 1
     maximum: 1
 very_rare:
-  accessibility: 100
+  accessibility: 75
   items:
   - name: "malediction ward"
     minimum: 1

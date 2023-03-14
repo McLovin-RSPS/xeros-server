@@ -1,14 +1,14 @@
-package io.xeros.content.itemskeptondeath;
+package io.Odyssey.content.itemskeptondeath;
 
-import io.xeros.ServerState;
-import io.xeros.content.combat.melee.CombatPrayer;
-import io.xeros.model.Items;
-import io.xeros.model.definitions.ItemDef;
-import io.xeros.model.definitions.ItemStats;
-import io.xeros.model.entity.player.Player;
-import io.xeros.model.items.GameItem;
-import io.xeros.test.ServerTest;
-import io.xeros.test.TestPlayer;
+import io.Odyssey.ServerState;
+import io.Odyssey.content.combat.melee.CombatPrayer;
+import io.Odyssey.model.Items;
+import io.Odyssey.model.definitions.ItemDef;
+import io.Odyssey.model.definitions.ItemStats;
+import io.Odyssey.model.entity.player.Player;
+import io.Odyssey.model.items.GameItem;
+import io.Odyssey.test.ServerTest;
+import io.Odyssey.test.TestPlayer;
 import org.junit.jupiter.api.*;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package io.xeros.model.entity.player.mode;
+package io.Odyssey.model.entity.player.mode;
 
 import java.util.Arrays;
 

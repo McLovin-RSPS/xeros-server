@@ -1,4 +1,4 @@
-package io.xeros.model.multiplayersession.flowerpoker;
+package io.Odyssey.model.multiplayersession.flowerpoker;
 
 import org.junit.jupiter.api.Test;
 

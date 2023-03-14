@@ -1,12 +1,12 @@
-package io.xeros.util;
+package io.Odyssey.util;
 
 import com.fasterxml.jackson.databind.exc.MismatchedInputException;
-import io.xeros.content.commands.owner.Npc;
-import io.xeros.model.Npcs;
-import io.xeros.model.definitions.NpcDef;
-import io.xeros.model.definitions.NpcStats;
-import io.xeros.model.entity.npc.NPCSpawning;
-import io.xeros.model.entity.npc.stats.NpcCombatDefinition;
+import io.Odyssey.content.commands.owner.Npc;
+import io.Odyssey.model.Npcs;
+import io.Odyssey.model.definitions.NpcDef;
+import io.Odyssey.model.definitions.NpcStats;
+import io.Odyssey.model.entity.npc.NPCSpawning;
+import io.Odyssey.model.entity.npc.stats.NpcCombatDefinition;
 
 import java.io.IOException;
 import java.util.ArrayList;

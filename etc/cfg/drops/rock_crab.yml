@@ -5,9 +5,9 @@ npc_id:
 constant:
   accessibility: 0
   items:
-  - name: "bones"
+  - name: "bones noted"
     minimum: 1
-    maximum: 1
+    maximum: 7
 common:
   accessibility: 10
   items:
